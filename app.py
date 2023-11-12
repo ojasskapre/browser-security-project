@@ -41,7 +41,7 @@ def get_element_text(element):
 def find_cookie_banner_by_attributes(driver):
     for keyword in banner_attributes_keywords:
         elements = driver.find_elements(
-            By.XPATH, f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}') or contains(@aria-label, '{keyword}')]")
+            By.XPATH, f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}') or contains(@*[starts-with(name(), 'aria-')], '{keyword}')]")
 
         for element in elements:
             print(element.is_displayed(), element.size,
@@ -58,7 +58,9 @@ def find_cookie_banner_by_attributes(driver):
 
 
 def find_cookie_banner(elements_with_zindex):
-    for element in elements_with_zindex.keys():
+    sorted_elements = sorted(elements_with_zindex.items(),
+                             key=lambda x: x[1], reverse=True)
+    for element, a in sorted_elements:
         if is_cookie_banner(element):
             return element
     return None
@@ -103,7 +105,8 @@ def take_element_screenshot(driver, element, company_name):
         element_id = element.get_attribute('id')
         print(
             f"Element: {element}, Z-Index: {z_index}, Class: {class_name}, ID: {element_id}")
-        element.screenshot(f"{company_name}_{uuid.uuid4()}.png")
+        element.screenshot(
+            f"./banner-images/{company_name}_{uuid.uuid4()}.png")
     else:
         print(
             f"Element not visible or has zero size: {element}, Z-Index: {z_index}")
@@ -153,18 +156,18 @@ def main(url):
     time.sleep(10)  # Wait for the page to load
 
     # find_cookie_banner_by_attributes(driver)
-    # keyword = "Consent"
+    # keyword = "consent"
     # elements = driver.find_elements(
-    #     By.XPATH,
-    #     f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@aria-label, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}')]"
-    # )
+    #     By.XPATH, f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}') or contains(@*[starts-with(name(), 'aria-')], '{keyword}')]")
 
     # for e in elements:
     #     # ce = e.find_element(By.XPATH, ".//div")
     #     # print(e.shadow_root)
     #     print(e.get_attribute('id'))
+    #     print(e.get_attribute('class'))
     #     print(e.size)
     #     print(e.is_displayed())
+    #     print(e.text)
 
     company_name = extract_company_name(url)
 
