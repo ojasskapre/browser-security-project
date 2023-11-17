@@ -1,3 +1,5 @@
+import json
+import os
 import time
 import uuid
 
@@ -14,7 +16,7 @@ def extract_company_name(url):
     parsed_url = urlparse(url)
     domain = parsed_url.netloc
     domain_parts = domain.split('.')
-    return domain_parts[-2] if len(domain_parts) > 2 else domain_parts[0]
+    return domain_parts[1] if len(domain_parts) > 2 else domain_parts[0]
 
 
 def get_elements_with_zindex(driver):
@@ -97,7 +99,7 @@ def find_child_element(element):
     return child_element
 
 
-def take_element_screenshot(driver, element, company_name):
+def take_element_screenshot(driver, element, screenshot_path):
     z_index = element.value_of_css_property('z-index')
 
     if element.is_displayed() and element.size['width'] > 0 and element.size['height'] > 0:
@@ -106,24 +108,78 @@ def take_element_screenshot(driver, element, company_name):
         print(
             f"Element: {element}, Z-Index: {z_index}, Class: {class_name}, ID: {element_id}")
         element.screenshot(
-            f"./banner-images/{company_name}_{uuid.uuid4()}.png")
+            f"{screenshot_path}.png")
     else:
         print(
             f"Element not visible or has zero size: {element}, Z-Index: {z_index}")
 
         child_element = find_child_element(element)
         if child_element:
-            child_element.screenshot(f"{company_name}_{uuid.uuid4()}.png")
+            child_element.screenshot(f"{screenshot_path}.png")
+
+
+def get_links_details_from_banner(element):
+    # Find all links within the banner
+    links = element.find_elements(By.TAG_NAME, 'a')
+    link_details = [{
+        "text": link.text,
+        "url": link.get_attribute('href'),
+        "font_size": link.value_of_css_property("font-size"),
+        "font_weight": link.value_of_css_property("font-weight"),
+        "color": link.value_of_css_property("color"),
+        "background_color": link.value_of_css_property("background-color")
+    } for link in links]
+
+    return link_details
+
+
+def get_buttons_details_from_banner(element):
+    # Find all buttons within the banner
+    buttons = element.find_elements(By.TAG_NAME, 'button')
+    button_details = [{
+        "text": button.text,
+        "font_size": button.value_of_css_property("font-size"),
+        "font_weight": button.value_of_css_property("font-weight"),
+        "color": button.value_of_css_property("color"),
+        "background_color": button.value_of_css_property("background-color")
+    } for button in buttons]
+
+    return button_details
 
 
 def process_cookie_banner(driver, element, company_name):
+    company_dir = f"./results/{company_name}"
+    os.makedirs(company_dir, exist_ok=True)
     html_code = get_element_html_code(element)
     text = get_element_text(element)
+    screenshot_path = f"./results/{company_name}/main_banner.png"
 
-    # print(f"HTML Code: {html_code}")
-    # print(f"Text: {text}")
+    link_details = get_links_details_from_banner(element)
 
-    take_element_screenshot(driver, element, company_name)
+    button_details = get_buttons_details_from_banner(element)
+
+    results = {
+        "html_code": html_code,
+        "text": text,
+        "position": element.location,
+        "size": element.size,
+        "z_index": element.value_of_css_property('z-index'),
+        "class": element.get_attribute('class'),
+        "id": element.get_attribute('id'),
+        "background_color": element.value_of_css_property('background-color'),
+        "color": element.value_of_css_property('color'),
+        "border": element.value_of_css_property('border'),
+        "screen_shot_path": screenshot_path,
+        "links": link_details,
+        "number_of_links": len(link_details),
+        "buttons": button_details,
+        "number_of_buttons": len(button_details),
+    }
+
+    with open(f"{company_dir}/data.json", "w") as f:
+        f.write(json.dumps(results, indent=4))
+
+    take_element_screenshot(driver, element, screenshot_path)
 
 
 # def take_screenshots_of_top_elements(driver, elements_with_zindex, company_name, n=10):
@@ -190,7 +246,7 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main(web_url)
-    # for url in url_list:
-    #     print(f"\nProcessing {url}")
-    #     main(url)
+    # main(web_url)
+    for url in url_list:
+        print(f"\nProcessing {url}")
+        main(url)
