@@ -1,15 +1,25 @@
+import concurrent.futures
 import json
+from openai import OpenAI
 import os
 import time
 import uuid
 
 from constants import button_link_keywords, banner_text_keywords, banner_attributes_keywords
+from pprint import pprint
+from dotenv import load_dotenv
 from operator import itemgetter
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from urllib.parse import urlparse
-from website_list import web_url, url_list
+from website_list import url_list
+
+
+load_dotenv()
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
+)
 
 
 def extract_company_name(url):
@@ -46,12 +56,8 @@ def find_cookie_banner_by_attributes(driver):
             By.XPATH, f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}') or contains(@*[starts-with(name(), 'aria-')], '{keyword}')]")
 
         for element in elements:
-            print(element.is_displayed(), element.size,
-                  element.get_attribute('id'))
-            print(element.text)
             if element.is_displayed() and (element.size['width'] > 0 and element.size['height'] > 0):
                 if is_cookie_banner(element):
-                    print(element.get_attribute('id'))
                     return element
             else:
                 child_element = find_child_element(element)
@@ -77,6 +83,7 @@ def is_cookie_banner(element):
         buttons_or_links = element.find_elements(By.XPATH, ".//button | .//a")
         for btn_link in buttons_or_links:
             btn_link_text = btn_link.text.lower()
+
             if any(keyword in btn_link_text for keyword in button_link_keywords):
                 return True
     return False
@@ -99,20 +106,11 @@ def find_child_element(element):
     return child_element
 
 
-def take_element_screenshot(driver, element, screenshot_path):
-    z_index = element.value_of_css_property('z-index')
-
+def take_element_screenshot(element, screenshot_path):
     if element.is_displayed() and element.size['width'] > 0 and element.size['height'] > 0:
-        class_name = element.get_attribute('class')
-        element_id = element.get_attribute('id')
-        print(
-            f"Element: {element}, Z-Index: {z_index}, Class: {class_name}, ID: {element_id}")
         element.screenshot(
             f"{screenshot_path}.png")
     else:
-        print(
-            f"Element not visible or has zero size: {element}, Z-Index: {z_index}")
-
         child_element = find_child_element(element)
         if child_element:
             child_element.screenshot(f"{screenshot_path}.png")
@@ -148,56 +146,93 @@ def get_buttons_details_from_banner(element):
 
 
 def process_cookie_banner(driver, element, company_name):
-    company_dir = f"./results/{company_name}"
-    os.makedirs(company_dir, exist_ok=True)
     html_code = get_element_html_code(element)
     text = get_element_text(element)
-    screenshot_path = f"./results/{company_name}/main_banner.png"
 
-    link_details = get_links_details_from_banner(element)
+    html_code_prompt = f"Determine if the following HTML code is a cookie consent banner and answer with 'True' or 'False' only: \n\n{html_code}"
+    text_prompt = f"Determine if the following text is a cookie consent banner and answer with 'True' or 'False' only: \n\n{text}"
 
-    button_details = get_buttons_details_from_banner(element)
+    is_cookie_banner = "True"
 
-    results = {
-        "html_code": html_code,
-        "text": text,
-        "position": element.location,
-        "size": element.size,
-        "z_index": element.value_of_css_property('z-index'),
-        "class": element.get_attribute('class'),
-        "id": element.get_attribute('id'),
-        "background_color": element.value_of_css_property('background-color'),
-        "color": element.value_of_css_property('color'),
-        "border": element.value_of_css_property('border'),
-        "screen_shot_path": screenshot_path,
-        "links": link_details,
-        "number_of_links": len(link_details),
-        "buttons": button_details,
-        "number_of_buttons": len(button_details),
-    }
+    # is_cookie_banner = get_gpt3_response(html_code_prompt)
+    # if is_cookie_banner is None:
+    #     is_cookie_banner = get_gpt3_response(text_prompt)
 
-    with open(f"{company_dir}/data.json", "w") as f:
-        f.write(json.dumps(results, indent=4))
+    if is_cookie_banner == "True":
+        print("Cookie banner found.")
+        screenshot_path = f"./results/{company_name}/main_banner.png"
+        link_details = get_links_details_from_banner(element)
+        button_details = get_buttons_details_from_banner(element)
+        company_dir = f"./results/{company_name}"
+        os.makedirs(company_dir, exist_ok=True)
+        results = {
+            "position": element.location,
+            "size": element.size,
+            "z_index": element.value_of_css_property('z-index'),
+            "class": element.get_attribute('class'),
+            "id": element.get_attribute('id'),
+            "background_color": element.value_of_css_property('background-color'),
+            "color": element.value_of_css_property('color'),
+            "border": element.value_of_css_property('border'),
+            "screen_shot_path": screenshot_path,
+            "links": link_details,
+            "number_of_links": len(link_details),
+            "buttons": button_details,
+            "number_of_buttons": len(button_details),
+            "html_code": html_code,
+            "text": text
+        }
 
-    take_element_screenshot(driver, element, screenshot_path)
+        with open(f"{company_dir}/data.json", "w") as f:
+            f.write(json.dumps(results, indent=4))
+
+        take_element_screenshot(element, screenshot_path)
+
+    elif is_cookie_banner == "False":
+        print("Cookie banner not found.")
+    elif is_cookie_banner is None:
+        print("Cookie banner could not be determined.")
 
 
-# def take_screenshots_of_top_elements(driver, elements_with_zindex, company_name, n=10):
-#     sorted_elements = sorted(elements_with_zindex.items(),
-#                              key=itemgetter(1), reverse=True)
-#     for elem, z_index in sorted_elements[:n]:
-#         if elem.is_displayed() and elem.size['width'] > 0 and elem.size['height'] > 0:
-#             class_name = elem.get_attribute('class')
-#             element_id = elem.get_attribute('id')
-#             print(
-#                 f"Element: {elem}, Z-Index: {z_index}, Class: {class_name}, ID: {element_id}")
-#             elem.screenshot(f"{company_name}_{uuid.uuid4()}.png")
-#         else:
-#             print(
-#                 f"Element not visible or has zero size: {elem}, Z-Index: {z_index}")
+def get_gpt3_response(prompt):
+    print("Calling GPT-3 API...")
+    try:
+        # Call the OpenAI API
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo-1106",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+
+        # Print the response
+        response = completion.choices[0].message.content
+        print(f"Response: {response}")
+        return response
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
+
+
+def check_website_folders(base_path, website_list):
+    folder_exists = {}
+
+    for website_url in website_list:
+        # Extract company name from the URL
+        company_name = extract_company_name(website_url)
+
+        # Construct the path to the website's folder
+        folder_path = os.path.join(base_path, company_name)
+
+        # Check if the folder exists
+        folder_exists[website_url] = os.path.isdir(folder_path)
+
+    return folder_exists
 
 
 def main(url):
+    print(f"\n\nProcessing {url}")
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument(
@@ -211,34 +246,17 @@ def main(url):
 
     time.sleep(10)  # Wait for the page to load
 
-    # find_cookie_banner_by_attributes(driver)
-    # keyword = "consent"
-    # elements = driver.find_elements(
-    #     By.XPATH, f"//*[contains(@id, '{keyword}') or contains(@class, '{keyword}') or contains(@*[starts-with(name(), 'data-')], '{keyword}') or contains(@*[starts-with(name(), 'aria-')], '{keyword}')]")
-
-    # for e in elements:
-    #     # ce = e.find_element(By.XPATH, ".//div")
-    #     # print(e.shadow_root)
-    #     print(e.get_attribute('id'))
-    #     print(e.get_attribute('class'))
-    #     print(e.size)
-    #     print(e.is_displayed())
-    #     print(e.text)
-
     company_name = extract_company_name(url)
 
     elements_with_zindex = get_elements_with_zindex(driver)
     cookie_banner = find_cookie_banner(elements_with_zindex)
 
     if cookie_banner:
-        print("Cookie banner found.")
         process_cookie_banner(driver, cookie_banner, company_name)
     else:
-        print("No cookie banner found using z-index.")
         # Find banners by attributes and take screenshots
         cookie_banner = find_cookie_banner_by_attributes(driver)
         if cookie_banner:
-            print("Cookie banner found.")
             process_cookie_banner(driver, cookie_banner, company_name)
         else:
             print("No cookie banner found.")
@@ -246,7 +264,24 @@ def main(url):
 
 
 if __name__ == "__main__":
-    # main(web_url)
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        executor.map(main, url_list)
+
     for url in url_list:
-        print(f"\nProcessing {url}")
-        main(url)
+        company_name = extract_company_name(url)
+        # check if company name folder exists in results
+        # if not, run the main function for that url again
+        if not os.path.exists(f"./results/{company_name}"):
+            main(url)
+
+    base_path = "./results"
+    folder_exists = check_website_folders(base_path, url_list)
+
+    # Counting True and False occurrences
+    true_count = sum(value for value in folder_exists.values())
+    false_count = len(folder_exists) - true_count
+
+    # Printing results
+    pprint(folder_exists)
+    print(f"Websites with cookie banner: {true_count}")
+    print(f"Websites without cookie banner: {false_count}")

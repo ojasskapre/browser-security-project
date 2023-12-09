@@ -1,0 +1,40 @@
+{
+    "position": {
+        "x": 0,
+        "y": 850
+    },
+    "size": {
+        "height": 230,
+        "width": 1912
+    },
+    "z_index": "90",
+    "class": "cookie-bar",
+    "id": "cookie-bar",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(7, 34, 69, 1)",
+    "border": "0px solid rgb(7, 34, 69)",
+    "screen_shot_path": "./results/locker/main_banner.png",
+    "links": [
+        {
+            "text": "Learn more",
+            "url": "https://locker.io/privacy",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(38, 131, 52, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Accept",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(38, 131, 52, 1)"
+        }
+    ],
+    "number_of_buttons": 1,
+    "html_code": "<div id=\"cookie-bar\" class=\"cookie-bar\"><div class=\"cookie-bar__wrap\"><div class=\"cookie-bar__msg-wrap\"><div class=\"cookie-bar__msg\"><p class=\"landing-font-18 font-bold mb-3\">\n            Locker and Cookies\n          </p> <p class=\"landing-font-14 mb-4\">Our website uses cookies to improve your experience.<br>By clicking \u201cAccept\u201d, you agree Locker can store cookies on your device and disclose information in accordance with our Cookie Policy.</p> <a href=\"/privacy\" class=\"landing-font-14 text-primary\">\n            Learn more\n          </a></div> <div class=\"cookie-bar__manage\"><button class=\"cookie-bar__btn\">\n            Accept\n          </button></div></div> <div class=\"cookie-bar__close\"><i class=\"el-icon-close\"></i></div></div></div>",
+    "text": "Locker and Cookies\nOur website uses cookies to improve your experience.\nBy clicking \u201cAccept\u201d, you agree Locker can store cookies on your device and disclose information in accordance with our Cookie Policy.\nLearn more\nAccept"
+}

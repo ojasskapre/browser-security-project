@@ -1,0 +1,62 @@
+{
+    "position": {
+        "x": 560,
+        "y": 350
+    },
+    "size": {
+        "height": 379,
+        "width": 800
+    },
+    "z_index": "2147483645",
+    "class": "otCenterRounded default ot-wo-title ot-bnr-w-logo vertical-align-content",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(55, 0, 60, 1)",
+    "border": "0px none rgb(55, 0, 60)",
+    "screen_shot_path": "./results/premierleague/main_banner.png",
+    "links": [
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.premierleague.com/cookie-policy",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(233, 0, 82, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.premierleague.com/cookie-policy",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(233, 0, 82, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 2,
+    "buttons": [
+        {
+            "text": "Accept All Cookies",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(55, 0, 60, 1)"
+        },
+        {
+            "text": "Manage Cookies",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(55, 0, 60, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otCenterRounded default ot-wo-title ot-bnr-w-logo vertical-align-content\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\"><div class=\"ot-sdk-container\" role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-modal=\"true\" aria-label=\"Privacy\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-twelve ot-sdk-columns\"><div id=\"onetrust-policy\"><div class=\"banner-header\"><div class=\"banner_logo\"></div><img class=\"ot-bnr-logo\" src=\"https://cdn-ukwest.onetrust.com/logos/9cb83bee-0c92-4a46-a63a-1cd0d05e6347/e0c64545-fb1d-4932-a73c-a038a3361cbc/8cb9ad6a-eb9b-43d3-a81a-a78bc6c8c785/pl-long-n.png\" title=\"Premier League\" alt=\"Premier League\"></div><p id=\"onetrust-policy-text\">The Premier League website uses essential cookies to make our website work. We would also like to use analytics cookies to improve your user experience. Non-essential cookies will be set only if you accept. For more detailed information about the cookies we use, see our<a href=\"https://www.premierleague.com/cookie-policy\">Cookie Policy</a>.\n<br><br>Essential cookies are required for the operation of our website. You may disable these using your browser settings but this may affect website functionality.<br><br>Non-essential cookies help us improve the functionality of our website by collecting information and reporting on your use of the website as well as improving your user experience. You can manage your non-essential cookies using the Cookie Settings or at any time via our<a href=\"https://www.premierleague.com/cookie-policy\">Cookie Policy</a>.</p></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\"><div id=\"onetrust-button-group\"><div class=\"banner-actions-container\"> <button id=\"onetrust-accept-btn-handler\">Accept All Cookies</button></div><button id=\"onetrust-pc-btn-handler\">Manage Cookies</button></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"><button class=\"onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon\" style=\"background-image: url(&quot;https://cdn-ukwest.onetrust.com/logos/static/ot_close.svg&quot;);\" aria-label=\"Close\"></button></div><!-- Close Button END--></div></div></div>",
+    "text": "The Premier League website uses essential cookies to make our website work. We would also like to use analytics cookies to improve your user experience. Non-essential cookies will be set only if you accept. For more detailed information about the cookies we use, see ourCookie Policy.\n\nEssential cookies are required for the operation of our website. You may disable these using your browser settings but this may affect website functionality.\n\nNon-essential cookies help us improve the functionality of our website by collecting information and reporting on your use of the website as well as improving your user experience. You can manage your non-essential cookies using the Cookie Settings or at any time via ourCookie Policy.\nAccept All Cookies\nManage Cookies"
+}

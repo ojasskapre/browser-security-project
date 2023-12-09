@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 1080,
+        "width": 1920
+    },
+    "z_index": "150",
+    "class": "p-modal",
+    "id": "modal",
+    "background_color": "rgba(17, 17, 17, 0.85)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/ubuntu/main_banner.png",
+    "links": [
+        {
+            "text": "cookie policy",
+            "url": "https://ubuntu.com/legal/data-privacy?cp=hide#cookies",
+            "font_size": "18px",
+            "font_weight": "400",
+            "color": "rgba(0, 102, 204, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Accept all and visit site",
+            "font_size": "18px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(14, 132, 32, 1)"
+        },
+        {
+            "text": "Manage your tracker settings",
+            "font_size": "18px",
+            "font_weight": "400",
+            "color": "rgba(0, 0, 0, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div class=\"p-modal\" id=\"modal\">\n        <div class=\"p-modal__dialog\" role=\"dialog\" aria-labelledby=\"cookie-policy-title\" aria-describedby=\"cookie-policy-content\">\n        <header class=\"p-modal__header\">\n          <h2 class=\"p-modal__title\" id=\"cookie-policy-title\">Your tracker settings</h2>\n        </header>\n        <div id=\"cookie-policy-content\">\n          <p data-gtm-vis-has-fired1014405_503=\"1\">We use cookies and similar methods to recognise visitors and remember preferences. We also use them to measure campaign effectiveness and analyse site traffic.</p>\n          <p data-gtm-vis-has-fired1014405_503=\"1\">By selecting \u2018Accept\u2018, you consent to the use of these methods by us and trusted third parties.</p>\n          <p data-gtm-vis-has-fired1014405_503=\"1\">For further details or to change your consent choices at any time see our <a href=\"https://ubuntu.com/legal/data-privacy?cp=hide#cookies\">cookie policy</a>.</p>\n          <p class=\"u-no-margin--bottom\" data-gtm-vis-has-fired1014405_503=\"1\">\n            <button class=\"p-button--positive js-close\" id=\"cookie-policy-button-accept\">Accept all and visit site</button>\n            <button class=\"p-button js-manage\">Manage your tracker settings</button>\n          </p>\n        </div>\n      </div></div>",
+    "text": "Your tracker settings\nWe use cookies and similar methods to recognise visitors and remember preferences. We also use them to measure campaign effectiveness and analyse site traffic.\nBy selecting \u2018Accept\u2018, you consent to the use of these methods by us and trusted third parties.\nFor further details or to change your consent choices at any time see our cookie policy.\nAccept all and visit site Manage your tracker settings"
+}

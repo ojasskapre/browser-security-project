@@ -1,0 +1,70 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 325,
+        "width": 1920
+    },
+    "z_index": "auto",
+    "class": "gem-c-cookie-banner govuk-clearfix govuk-cookie-banner js-banner-wrapper",
+    "id": "global-cookie-message",
+    "background_color": "rgba(243, 242, 241, 1)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "",
+    "screen_shot_path": "./results/gov/main_banner.png",
+    "links": [
+        {
+            "text": "",
+            "url": "https://www.gov.uk/help/cookies",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(29, 112, 184, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "",
+            "url": "https://www.gov.uk/help/cookies",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(29, 112, 184, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "View cookies",
+            "url": "https://www.gov.uk/help/cookies",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(29, 112, 184, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 3,
+    "buttons": [
+        {
+            "text": "Accept additional cookies",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 60, 1)"
+        },
+        {
+            "text": "Reject additional cookies",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 60, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 60, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"global-cookie-message\" class=\"gem-c-cookie-banner govuk-clearfix govuk-cookie-banner js-banner-wrapper\" data-module=\"cookie-banner\" data-nosnippet=\"\" role=\"region\" aria-label=\"Cookies on GOV.UK\" data-cookie-banner-module-started=\"true\" style=\"display: block;\">\n  <div class=\"govuk-cookie-banner__message govuk-width-container\">\n    <div class=\"govuk-grid-row\">\n      <div class=\"govuk-grid-column-two-thirds\">\n        <h2 class=\"govuk-cookie-banner__heading govuk-heading-m\">Cookies on GOV.UK</h2>\n        <div tabindex=\"-1\" class=\"govuk-cookie-banner__content gem-c-cookie-banner__confirmation\">\n          <span class=\"gem-c-cookie-banner__content\"><p class=\"govuk-body\">We use some essential cookies to make this website work.</p>\n<p class=\"govuk-body\">We\u2019d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.</p>\n<p class=\"govuk-body\">We also use cookies set by other sites to help us deliver content from their services.</p></span>\n          <p class=\"gem-c-cookie-banner__confirmation-message--accepted govuk-body\" hidden=\"\" data-ga4-cookie-banner=\"\" data-module=\"ga4-link-tracker\" data-ga4-track-links-only=\"\" data-ga4-set-indexes=\"\" data-ga4-link=\"{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;cookie banner&quot;,&quot;section&quot;:&quot;You have accepted additional cookies&quot;}\" data-ga4-link-tracker-module-started=\"true\">You have accepted additional cookies. <span class=\"gem-c-cookie-banner__confirmation-message\">You can <a class=\"govuk-link\" data-module=\"gem-track-click\" data-track-category=\"cookieBanner\" data-track-action=\"Cookie banner settings clicked from confirmation\" href=\"/help/cookies\" data-gem-track-click-module-started=\"true\">change your cookie settings</a> at any time.</span></p>\n          <p class=\"gem-c-cookie-banner__confirmation-message--rejected govuk-body\" hidden=\"\">You have rejected additional cookies. <span class=\"gem-c-cookie-banner__confirmation-message\">You can <a class=\"govuk-link\" data-module=\"gem-track-click\" data-track-category=\"cookieBanner\" data-track-action=\"Cookie banner settings clicked from confirmation\" href=\"/help/cookies\" data-gem-track-click-module-started=\"true\">change your cookie settings</a> at any time.</span></p>\n        </div>\n      </div>\n    </div>\n    <div class=\"js-confirmation-buttons govuk-button-group\">\n        \n\n\n  <button class=\"gem-c-button govuk-button\" type=\"submit\" data-module=\"gem-track-click\" data-accept-cookies=\"true\" data-track-category=\"cookieBanner\" data-track-action=\"Cookie banner accepted\" data-cookie-types=\"all\" data-gem-track-click-module-started=\"true\" style=\"display: block;\">Accept additional cookies</button>\n\n\n        \n\n\n  <button class=\"gem-c-button govuk-button\" type=\"submit\" data-module=\"gem-track-click\" data-reject-cookies=\"true\" data-track-category=\"cookieBanner\" data-track-action=\"Cookie banner rejected\" data-gem-track-click-module-started=\"true\" style=\"display: block;\">Reject additional cookies</button>\n\n\n        <a class=\"govuk-link\" href=\"/help/cookies\">View cookies</a>\n    </div>\n    <div hidden=\"\" class=\"js-hide-button govuk-button-group\">\n      <button class=\"gem-c-cookie-banner__hide-button govuk-button\" data-hide-cookie-banner=\"true\" data-module=\"gem-track-click ga4-event-tracker\" data-track-category=\"cookieBanner\" data-track-action=\"Hide cookie banner\" data-ga4-event=\"{&quot;event_name&quot;:&quot;select_content&quot;,&quot;type&quot;:&quot;cookie banner&quot;,&quot;action&quot;:&quot;closed&quot;,&quot;section&quot;:&quot;You have accepted additional cookies&quot;}\" data-gem-track-click-module-started=\"true\" data-ga4-event-tracker-module-started=\"true\">\n          Hide this message\n        </button>\n    </div>\n  </div>\n</div>",
+    "text": "Cookies on GOV.UK\nWe use some essential cookies to make this website work.\nWe\u2019d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.\nWe also use cookies set by other sites to help us deliver content from their services.\nAccept additional cookies\nReject additional cookies\nView cookies"
+}

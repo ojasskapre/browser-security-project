@@ -1,0 +1,54 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 1080,
+        "width": 1920
+    },
+    "z_index": "99999998",
+    "class": "iubenda-cs-black iubenda-cs-default-floating iubenda-cs-center iubenda-cs-overlay iubenda-cs-no-heading iubenda-cs-visible",
+    "id": "iubenda-cs-banner",
+    "background_color": "rgba(0, 0, 0, 0)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/coolors/main_banner.png",
+    "links": [
+        {
+            "text": "cookie policy",
+            "url": "https://coolors.co/privacy-policy/32878568/cookie-policy?an=no&s_ck=false&newmarkup=yes",
+            "font_size": "15px",
+            "font_weight": "400",
+            "color": "rgba(0, 102, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "",
+            "font_size": "24px",
+            "font_weight": "400",
+            "color": "rgba(0, 0, 0, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Manage cookies",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(0, 0, 0, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Accept all cookies",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 102, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"iubenda-cs-banner\" class=\"iubenda-cs-black iubenda-cs-default-floating iubenda-cs-center iubenda-cs-overlay iubenda-cs-no-heading iubenda-cs-visible\" role=\"alertdialog\" aria-labelledby=\"iubenda-cs-title\" aria-describedby=\"iubenda-cs-paragraph\"><div class=\"iubenda-cs-container\"><div class=\"iubenda-cs-content\" style=\"\"><div class=\"iubenda-cs-rationale\"><button type=\"button\" class=\"iubenda-cs-close-btn\" tabindex=\"0\" role=\"button\" aria-pressed=\"false\" style=\"display:none!important;\">\u00d7</button><div class=\"iubenda-banner-content iubenda-custom-content\" role=\"document\"><div id=\"iubenda-cs-title\">Want a cookie? \ud83c\udf6a</div><div id=\"iubenda-cs-paragraph\"><p class=\"iub-p\">We and selected third parties use cookies or similar technologies as specified in the <a href=\"/privacy-policy/32878568/cookie-policy?an=no&amp;s_ck=false&amp;newmarkup=yes\" class=\"iubenda-cs-cookie-policy-lnk\">cookie policy</a>.</p><br>You can consent to the use of such technologies by using the \u201cAccept\u201d button.</div></div><div class=\"iubenda-cs-counter\" style=\"display: none;\">Press again to continue 0/2</div><div class=\"iubenda-cs-opt-group\" style=\"color:#000!important;\"><div class=\"iubenda-cs-opt-group-custom\"><button class=\"iubenda-cs-customize-btn\" tabindex=\"0\" role=\"button\" aria-pressed=\"false\">Manage cookies</button></div><div class=\"iubenda-cs-opt-group-consent\"><button class=\"iubenda-cs-accept-btn iubenda-cs-btn-primary\" tabindex=\"0\" role=\"button\" aria-pressed=\"false\">Accept all cookies</button></div></div></div></div></div></div>",
+    "text": "Want a cookie? \ud83c\udf6a\nWe and selected third parties use cookies or similar technologies as specified in the cookie policy.\n\nYou can consent to the use of such technologies by using the \u201cAccept\u201d button.\nManage cookies\nAccept all cookies"
+}

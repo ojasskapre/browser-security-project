@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 405,
+        "width": 1920
+    },
+    "z_index": "1",
+    "class": "nhsuk-cookie-banner",
+    "id": "cookiebanner",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(33, 43, 50, 1)",
+    "border": "0px none rgb(33, 43, 50)",
+    "screen_shot_path": "./results/nhs/main_banner.png",
+    "links": [
+        {
+            "text": "read more about our cookies",
+            "url": "https://www.nhs.uk/our-policies/cookies-policy/",
+            "font_size": "19px",
+            "font_weight": "400",
+            "color": "rgba(0, 94, 184, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "I'm OK with analytics cookies",
+            "font_size": "19px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 127, 59, 1)"
+        },
+        {
+            "text": "Do not use analytics cookies",
+            "font_size": "19px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 127, 59, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div class=\"nhsuk-cookie-banner\" id=\"cookiebanner\">\n    <div class=\"nhsuk-width-container\"> \n        <h2>Cookies on the NHS website</h2> \n        <p>We've put some small files called cookies on your device to make our site work.</p>\n        <p>We'd also like to use analytics cookies. These collect feedback and send information about how our site is used to services called Adobe Analytics, Qualtrics Feedback, Microsoft Clarity and Google Analytics. We use this information to improve our site.</p>\n        <p>Let us know if this is OK. We'll use a cookie to save your choice. You can <a id=\"nhsuk-cookie-banner__link\" href=\"/our-policies/cookies-policy/\">read more about our cookies</a> before you choose.</p>\n        <ul> \n            <li><button class=\"nhsuk-button\" id=\"nhsuk-cookie-banner__link_accept_analytics\" href=\"#\">I'm OK with analytics cookies</button></li>\n            <li><button class=\"nhsuk-button\" id=\"nhsuk-cookie-banner__link_accept\" href=\"#\">Do not use analytics cookies</button></li>\n        </ul>\n    </div>\n  </div>",
+    "text": "Cookies on the NHS website\nWe've put some small files called cookies on your device to make our site work.\nWe'd also like to use analytics cookies. These collect feedback and send information about how our site is used to services called Adobe Analytics, Qualtrics Feedback, Microsoft Clarity and Google Analytics. We use this information to improve our site.\nLet us know if this is OK. We'll use a cookie to save your choice. You can read more about our cookies before you choose.\nI'm OK with analytics cookies Do not use analytics cookies"
+}

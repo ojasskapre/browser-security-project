@@ -1,0 +1,48 @@
+{
+    "position": {
+        "x": 0,
+        "y": 972
+    },
+    "size": {
+        "height": 108,
+        "width": 1920
+    },
+    "z_index": "100",
+    "class": "cck-container wt-noconflict",
+    "id": "",
+    "background_color": "rgba(235, 235, 235, 1)",
+    "color": "rgba(68, 68, 68, 1)",
+    "border": "0px none rgb(68, 68, 68)",
+    "screen_shot_path": "./results/europa/main_banner.png",
+    "links": [
+        {
+            "text": "how we use cookies.",
+            "url": "https://european-union.europa.eu/cookies_en",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(0, 68, 148, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Accept all cookies",
+            "url": "https://european-union.europa.eu/select-language?destination=/node/1#accept",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(14, 71, 203, 1)"
+        },
+        {
+            "text": "Accept only essential cookies",
+            "url": "https://european-union.europa.eu/select-language?destination=/node/1#refuse",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(14, 71, 203, 1)"
+        }
+    ],
+    "number_of_links": 3,
+    "buttons": [],
+    "number_of_buttons": 0,
+    "html_code": "<div class=\"cck-container wt-noconflict\">  <div class=\"cck-wrapper wt-noconflict\">    <div class=\"cck-content wt-noconflict\">      <div aria-hidden=\"true\" class=\"cck-content-icon wt-noconflict\"><svg focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 24 24\" class=\"wt-information wt-ecl-icon wt-ecl-icon--l wt-ecl-icon--primary\"><path d=\"M11 11c0-.6.4-1 1-1s1 .4 1 1v5c0 .5-.4 1-1 1s-1-.5-1-1v-5zm1-4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm0-5C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z\" class=\"wt-noconflict\"></path></svg></div>      <div class=\"cck-content-content wt-noconflict\">        <p class=\"wt-paragraph\">This site uses cookies to offer you a better browsing experience. Find out more on <a href=\"https://european-union.europa.eu/cookies_en\" class=\"wt-link\" target=\"_self\">how we use cookies.</a></p>              </div>    </div>    <div class=\"cck-actions wt-noconflict\">      <a href=\"#accept\" class=\"wt-link wt-ecl-button wt-ecl-button--primary cck-actions-button\">Accept all cookies</a>      <a href=\"#refuse\" class=\"wt-link wt-ecl-button wt-ecl-button--primary cck-actions-button ea_ignore\">Accept only essential cookies</a>    </div>  </div></div>",
+    "text": "This site uses cookies to offer you a better browsing experience. Find out more on how we use cookies.\nAccept all cookies\nAccept only essential cookies"
+}

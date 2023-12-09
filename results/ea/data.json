@@ -1,0 +1,62 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1080
+    },
+    "size": {
+        "height": 0,
+        "width": 1920
+    },
+    "z_index": "2147483647",
+    "class": "",
+    "id": "consent_blackbar",
+    "background_color": "rgba(243, 243, 243, 1)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/ea/main_banner.png",
+    "links": [
+        {
+            "text": "Notice at Collection",
+            "url": "https://www.ea.com/legal/privacy-and-cookie-policy#information-for-california-residents",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(255, 71, 71, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Privacy and Cookie Policy",
+            "url": "https://www.ea.com/legal/privacy-policy",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(255, 71, 71, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 2,
+    "buttons": [
+        {
+            "text": "Accept",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Manage Settings",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Decline",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"consent_blackbar\"><style>    #truste-consent-track {    position: fixed;    bottom: 0;    left: 0;    right: 0;  }    .trustetrack {  background-color: #000;}.truste-banner {  margin: 0 auto;  display: flex;}.truste-messageColumn {  font-family: Arial, sans-serif;  font-size: 12px;  color: #fff;  margin: 15px 0px 15px 5px;  float: left;  display: flex;  flex-direction: row;  align-items: center;}.truste-buttonsColumn {  float: right;  margin: 10px 5px 10px 0px;  display: flex;  min-width: 275px;  flex-direction: column;  justify-content: center;  align-items: end;}.truste-button1,.truste-button2 {  font-family: Arial, sans-serif;  background: #000;  color: #fff;  font-size: 14px;  width: 200px;  height: auto;  cursor: pointer;  margin: 5px;  padding: 15px;  border: 1px solid #fff;}.truste-button1:hover,.truste-button2:hover {  background: #fff;  color: #000;}.truste-button3 {  font-family: Arial, sans-serif;  font-size: 12px;  width: 140px;  height: auto;  cursor: pointer;  margin-left: 5px;  padding: 5px;  color: #00559c;  border: none;  background-color: transparent;  outline: none;}.hidedesktop {  display: none;  font-family: Arial, sans-serif;  font-size: 14px;  cursor: pointer;  color: #00559c;  text-decoration: none;}.truste-cookie-link,.ea-donotsell {  font-family: Arial, sans-serif;  font-size: 12px;  cursor: pointer;  color: red;  text-decoration: none;  font-weight: bold;}.cookiespage {  cursor: pointer;  color: red;  font-weight: bold;}.advancedsettings {  cursor: pointer;}/* MEDIA QUERIES */@media screen and (max-width: 1240px) {    .truste-banner {        margin: 0 10px;    }}@media screen and (min-width: 535px) and (max-width: 856px) {  .truste-banner {    margin: 0 10px;    display: block;  }  .truste-messageColumn,  .truste-buttonsColumn {    float: left;    width: 100%;  }  .truste-messageColumn {    margin: 15px 0px 10px 0px;  }  .truste-buttonsColumn {    margin: 10px 0px 10px 0px;    align-items: center;  }  .truste-button1,  .truste-button2 {    margin-top: 0px;    margin-left: 0px;    width: 49%;    float: left;  }  .truste-button2 {    margin-right: 5px;  }  .truste-button3 {    display: none;  }  .hidedesktop {    display: inline;    font-size: 14px;    cursor: pointer;    color: #00559c;    text-decoration: none;  }}@media screen and (max-width: 534px) {  .truste-banner {    margin: 0 10px;    display: block;  }  .truste-messageColumn,  .truste-buttonsColumn {    float: left;    width: 100%;  }  .truste-messageColumn {    margin: 15px 0px 10px 0px;  }  .truste-buttonsColumn {    float: right;    margin: 10px 0px 10px 0px;    align-items: center;  }  .truste-button1,  .truste-button2 {    margin: 5px 0 0 0;    width: 100%;  }  .truste-button3 {    display: none;  }  .hidedesktop {    display: inline;    font-size: 14px;    cursor: pointer;    color: #00559c;    text-decoration: none;  }}.cookiespage {  cursor: pointer;/*   background: #000; */  font-family: Arial, sans-serif;  font-size: 12px;  color: red;/*   display: inline-block; *//*   padding: 0 !important; *//*   width: auto; *//*   margin: 0 !important; */  font-weight: bold;}.advancedsettings {  cursor: pointer;/*   background: #000; */  font-family: Arial, sans-serif;  font-size: 12px;  color: red;/*   display: inline-block; *//*   padding: 0 !important; *//*   width: auto; *//*   margin: 0 !important; */  font-weight: bold;}  /*.ea-donotsell{color: #fff;}*/.truste-messageColumn a{text-decoration:underline;}    .gpc-detected {        display: none;  }    .no-gpc-detected {      }  .hide-no-gpc-detected {        display: none;  }</style><div class=\"trustetrack\" id=\"truste-consent-track\" style=\"opacity: 1; display: block;\">        <div id=\"truste-consent-content\" class=\"truste-banner\" style=\"overflow: hidden; max-width: 1200px; max-height:auto;\">            <div id=\"truste-consent-text\" class=\"truste-messageColumn\">                <p><span class=\"no-gpc-detected\">                    We and our third-party partners use cookies and similar technologies as part of providing our services to you. This includes using them for purposes such as operations, analytics, enhanced user experience, and advertising.                    <br><br>                    You may <strong>Accept</strong> to enable all these technologies for all purposes, or <strong>Decline</strong> to disable all technologies except those necessary for operations. You also may go to <strong>Manage Settings</strong> for more detail on the technologies we use and to manage your choices.<br><br></span>                                      <span class=\"gpc-detected\">We have detected a Global Privacy Control signal from your browser and disabled cookies that may be considered a sale or sharing of your personal information for purposes of targeted advertising. Choose <b>Decline</b> to maintain this preference.<br><br></span>                                    Please review our&nbsp;<a href=\"https://www.ea.com/legal/privacy-and-cookie-policy#information-for-california-residents\" target=\"_blank\" id=\"truste-cookie-button\" class=\"truste-cookie-link\">Notice at Collection</a>&nbsp;for a summary of our data processing practices, as well as the rest of our&nbsp;<a href=\"https://www.ea.com/legal/privacy-policy\" target=\"_blank\" id=\"truste-privacy-button\" class=\"truste-cookie-link\">Privacy and Cookie Policy</a>&nbsp;for further details (last updated on June 30, 2023).&nbsp;&nbsp;                </p>            </div>                  <div id=\"truste-consent-buttons\" class=\"truste-buttonsColumn\">                    <button id=\"truste-consent-button\" type=\"button\" class=\"truste-button2\">Accept</button>              <button id=\"truste-show-consent\" type=\"button\" class=\"truste-button1\" aria-haspopup=\"true\">Manage Settings</button>              <button id=\"truste-consent-required\" type=\"button\" class=\"truste-button1\">Decline</button>            </div>        </div>    </div></div>",
+    "text": "We and our third-party partners use cookies and similar technologies as part of providing our services to you. This includes using them for purposes such as operations, analytics, enhanced user experience, and advertising.\n\nYou may Accept to enable all these technologies for all purposes, or Decline to disable all technologies except those necessary for operations. You also may go to Manage Settings for more detail on the technologies we use and to manage your choices.\n\n\n\nPlease review our Notice at Collection for a summary of our data processing practices, as well as the rest of our Privacy and Cookie Policy for further details (last updated on June 30, 2023).  \nAccept\nManage Settings\nDecline"
+}

@@ -1,0 +1,94 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 1080,
+        "width": 1920
+    },
+    "z_index": "auto",
+    "class": "consent-overlay",
+    "id": "",
+    "background_color": "rgba(0, 0, 0, 0.5)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/yahoo/main_banner.png",
+    "links": [
+        {
+            "text": "guce",
+            "url": "https://uk.yahoo.com/",
+            "font_size": "0px",
+            "font_weight": "400",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "",
+            "url": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&userType=NON_REG",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "our partners",
+            "url": "https://consent.yahoo.com/v2/partners-list?sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "privacy policy",
+            "url": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&userType=NON_REG",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "cookie policy",
+            "url": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&userType=NON_REG",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Manage privacy settings",
+            "url": "https://consent.yahoo.com/v2/partners?sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_links": 6,
+    "buttons": [
+        {
+            "text": "Accept all",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Reject all",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "16px",
+            "font_weight": "600",
+            "color": "rgba(15, 105, 255, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div class=\"consent-overlay\">\n        <div class=\"container con-container is-reject-all-enabled\" aria-labelledby=\"consent-title\" aria-describedby=\"consent-text\">\n            <div class=\"con-wizard\">\n                <form method=\"post\" class=\"consent-form\" action=\"\">\n                <div class=\"wizard-header\"><div class=\"consent-brand-logo\"><div id=\"ybar\" role=\"banner\" data-spaceid=\"\" data-testid=\"\" data-version=\"3.9.730\" data-issinglerowheader=\"false\" data-issinglerowsearchbox=\"\" class=\"ybar-ytheme-classic ybar-property-guce  ybar-variant-yahoo _yb_krnwd _yb_9yq9k _yb_1fo25    ybar-light      ybar-track-link-views   \"> <script id=\"ybarConfig\" type=\"text/x-template\">{}</script>  <div id=\"ybar-inner-wrap\" class=\"_yb_1wemu \"><div class=\"_yb_1j4m0\"></div>          <div class=\"_yb_11rw0 _yb_omu63\"><div class=\"_yb_eg1td _yb_oro64\">   <div class=\"_yb_1k6bl\"><h1 class=\"_yb_zji0g\">guce</h1>   <a href=\"https://uk.yahoo.com/\" id=\"ybar-logo\" class=\"_yb_wu6qc  _yb_q89zc    \" data-ylk=\"slk:guce;elm:logo;sec:ybar;subsec:logo;itc:0;\">           <img class=\"_yb_rbic1 _yb_hwwjl\" src=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png\" srcset=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png 1x, https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png 2x\" title=\"\" aria-hidden=\"true\" alt=\"\"><img class=\"_yb_rbic1 _yb_wu37b\" src=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png\" srcset=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png 1x, https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage_2x.png 2x\" title=\"\" aria-hidden=\"true\" alt=\"\">         guce  </a>  </div>    <div role=\"toolbar\" class=\"_yb_1haex ybar-menu-hover-open\"></div></div></div>  </div></div></div></div>\n                <div class=\"wizard-body\">\n                    <div class=\"consent-text\" id=\"consent-text\">\n                        <div class=\"content-section first\">\n                            <p>    We, Yahoo, are part of the <span aria-label=\"Yahoo family of brands\" aria-describedby=\"consent-yahoo-tooltip\" class=\"info hover touched-once\" data-tooltip=\"The sites and apps that we own and operate, including Yahoo and AOL, and our digital advertising service, Yahoo Advertising.\"><span class=\"info-popup\"><span class=\"info-popup-content\"><span class=\"info-popup-heading\">Yahoo family of brands</span><img src=\"../static/images/close.svg\" alt=\"\"><span id=\"consent-yahoo-tooltip\" class=\"info-popup-description\">The sites and apps that we own and operate, including Yahoo and AOL, and our digital advertising service, Yahoo Advertising.</span></span></span>Yahoo</span> family of brands.\n</p>\n                            <div>    When you use our sites and apps, we use <span aria-label=\"Cookies\" aria-describedby=\"consent-cookie-tooltip\" class=\"info hover\" data-tooltip=\"Cookies (including similar technologies such as web storage) allow the operators of websites and apps to store and read information from your device. Learn more in our <a href='/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&amp;brandDomain=&amp;brandId=yahoo&amp;tos=eu&amp;step=&amp;sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&amp;userType=NON_REG' target='_blank'>cookie policy</a>.\"><span class=\"info-popup\"><span class=\"info-popup-content\"><span class=\"info-popup-heading\">Cookies</span><img src=\"../static/images/close.svg\" alt=\"\"><span id=\"consent-cookie-tooltip\" class=\"info-popup-description\">Cookies (including similar technologies such as web storage) allow the operators of websites and apps to store and read information from your device. Learn more in our <a href=\"/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&amp;brandDomain=&amp;brandId=yahoo&amp;tos=eu&amp;step=&amp;sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&amp;userType=NON_REG\" target=\"_blank\">cookie policy</a>.</span></span></span>cookies</span> to:\n</div>\n                            <ul class=\"content-list\">\n                                <li class=\"list-item\">provide our sites and apps to you</li>\n                                <li class=\"list-item\">authenticate users, apply security measures, and prevent spam and abuse, and</li>\n                                <li class=\"list-item\">measure your use of our sites and apps</li>\n                            </ul>\n                        </div>\n                        <div class=\"content-section\">\n                            <div>    If you click '<strong>Accept all</strong>', we and <a href=\"/v2/partners-list?sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974\" target=\"_blank\">our partners</a> (including 236 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise location, and browsing and search data, to:\n</div>\n\n                            <ul class=\"content-list\">\n                                <li class=\"list-item\">display personalised ads and content based on interest profiles</li>\n                                <li class=\"list-item\">measure the effectiveness of personalised ads and content, and</li>\n                                <li class=\"list-item\">develop and improve our products and services</li>\n                            </ul>\n                                <p>    If you do not want us and our partners to use cookies and personal data for these additional purposes, click '<strong>Reject all</strong>'.\n</p>\n                            <p>    If you would like to customise your choices, click '<strong>Manage privacy settings</strong>'.\n</p>\n                            <p>    You can change your choices at any time by clicking on the 'Privacy &amp; cookie settings' or 'Privacy dashboard' links on our sites and apps. Find out more about how we use your personal data in our <a href=\"/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Findex.html&amp;brandDomain=&amp;brandId=yahoo&amp;tos=eu&amp;step=&amp;sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&amp;userType=NON_REG\" target=\"_blank\">privacy policy</a> and <a href=\"/redirect?to=https%3A%2F%2Flegal.yahoo.com%2Fie%2Fen%2Fyahoo%2Fprivacy%2Fcookies%2Findex.html&amp;brandDomain=&amp;brandId=yahoo&amp;tos=eu&amp;step=&amp;sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974&amp;userType=NON_REG\" target=\"_blank\">cookie policy</a>.\n</p>\n                        </div>\n                    </div>\n                    <div class=\"actions couple\">\n    <input type=\"hidden\" name=\"csrfToken\" value=\"dQoUBpM\">\n    <input type=\"hidden\" name=\"sessionId\" value=\"2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974\">\n    <input type=\"hidden\" name=\"originalDoneUrl\" value=\"https://uk.yahoo.com/?guccounter=1\">\n    <input type=\"hidden\" name=\"namespace\" value=\"yahoo\">\n    <button type=\"submit\" class=\"btn secondary accept-all \" name=\"agree\" value=\"agree\">Accept all</button>\n        <button type=\"submit\" class=\"btn secondary reject-all\" name=\"reject\" value=\"reject\">Reject all</button>\n    <a href=\"/v2/partners?sessionId=2_cc-session_0038ef1a-6ec7-4fb8-8fd9-8202b6ae0974\" class=\"btn secondary mng-btn manage-settings\" role=\"button\">Manage privacy settings</a>\n                    </div>\n                </div>\n                </form>\n                <div class=\"scroll-down-wrapper\">\n                    <button id=\"scroll-down-btn\" class=\"btn\">\n                        <span class=\"scroll-down-arrow\"></span>Go to end\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>",
+    "text": "guce\nWe, Yahoo, are part of the\nYahoo family of brands.\nWhen you use our sites and apps, we use\ncookies to:\nprovide our sites and apps to you\nauthenticate users, apply security measures, and prevent spam and abuse, and\nmeasure your use of our sites and apps\nIf you click 'Accept all', we and our partners (including 236 who are part of the IAB Transparency & Consent Framework) will also use cookies and your personal data, such as IP address, precise location, and browsing and search data, to:\ndisplay personalised ads and content based on interest profiles\nmeasure the effectiveness of personalised ads and content, and\ndevelop and improve our products and services\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\nIf you would like to customise your choices, click 'Manage privacy settings'.\nYou can change your choices at any time by clicking on the 'Privacy & cookie settings' or 'Privacy dashboard' links on our sites and apps. Find out more about how we use your personal data in our privacy policy and cookie policy.\nAccept all Reject all Manage privacy settings"
+}

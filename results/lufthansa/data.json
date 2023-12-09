@@ -1,0 +1,84 @@
+{
+    "position": {
+        "x": 510,
+        "y": 50
+    },
+    "size": {
+        "height": 378,
+        "width": 900
+    },
+    "z_index": "9999999",
+    "class": "consent-manager",
+    "id": "cm-dial-v211",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(5, 22, 77, 1)",
+    "border": "0px none rgb(5, 22, 77)",
+    "screen_shot_path": "./results/lufthansa/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Policy",
+            "url": "https://www.lufthansa.com/xx/en/common/privacy-statement/info",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(82, 98, 124, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.lufthansa.com/xx/en/common/privacy-statement/cookie-policy",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(82, 98, 124, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Imprint",
+            "url": "https://www.lufthansa.com/xx/en/common/imprint",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(82, 98, 124, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 3,
+    "buttons": [
+        {
+            "text": "My settings",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(82, 98, 124, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(5, 22, 77, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(5, 22, 77, 1)",
+            "background_color": "rgba(255, 173, 0, 1)"
+        },
+        {
+            "text": "I do not agree",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(82, 98, 124, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Agree",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(5, 22, 77, 1)",
+            "background_color": "rgba(255, 173, 0, 1)"
+        }
+    ],
+    "number_of_buttons": 5,
+    "html_code": "<div class=\"consent-manager\" id=\"cm-dial-v211\" tabindex=\"-1\" role=\"dialog\" style=\"display: block;\">    <!-- this is #__tealiumGDPRcpPrefs -->    <div class=\"consent-manager-inner\" id=\"cm_v230\">        <div class=\"layout-wrap\">            <div class=\"layout-col col-main\">                <div class=\"layout-row\">                    <div class=\"row-item\">                        <h2 class=\"title\" id=\"cm-headline\" tabindex=\"0\">Privacy settings</h2>                    </div>                </div>                <div class=\"layout-row\">                    <p tabindex=\"0\">We use cookies and similar technologies that are necessary to run the app and the website. Additional cookies are only used with your consent. We use them to access, analyse and store information such as the characteristics of your device as well as certain personal data (IP addresses, navigation usage, geolocation data or unique identifiers). The processing of your data serves various purposes: Analytics cookies allow us to analyse our performance to offer you a better online experience and evaluate the efficiency of our campaigns. Personalisation cookies give you access to a customised experience of our website with usage-based offers and support. Finally, Advertising cookies are placed by third-party companies processing your data to create audiences lists to deliver targeted ads on social media and the internet.&nbsp;You may freely give, refuse or withdraw your consent at any time using the link provided at the bottom of each page. You can consent to our use of cookies by clicking on Agree. For more information on which data is collected and how it is shared with our partners please read our privacy and cookie policy&nbsp;: <a href=\"https://www.lufthansa.com/xx/en/common/privacy-statement/info\" class=\"icon-link\" target=\"_blank\" aria-label=\"Privacy Policy - This link will be opened in a new tab\">Privacy&nbsp;Policy</a> <a href=\"https://www.lufthansa.com/xx/en/common/privacy-statement/cookie-policy\" class=\"icon-link\" target=\"_blank\" aria-label=\"Cookie Policy - This link will be opened in a new tab\">Cookie&nbsp;Policy</a></p>                </div>                <div class=\"layout-row paddingTop\">                    <div class=\"row-item\">                        <a href=\"https://www.lufthansa.com/xx/en/common/imprint\" class=\"icon-link\" target=\"_blank\" aria-label=\"Imprint - This link will be opened in a new tab\">Imprint</a>                    </div>                    <div class=\"row-item\" style=\"text-align: right;\">                        <button id=\"cm-descToggle\" aria-expanded=\"false\" class=\"consent-toggle collapsed\" tabindex=\"0\" aria-controls=\"cm-consentDesc\">My settings</button><i class=\" toggleIcon collapsed\" id=\"cm-descToggleIcon\"></i>                    </div>                </div>                <div class=\"layout-row-toggle\">                    <div id=\"startDesc\"></div>                    <!--<button id=\"cm-descToggle\" aria-expanded=\"false\" class=\"consent-toggle collapsed\" tabindex=\"0\" aria-controls=\"cm-consentDesc\">My settings</button><i class=\" toggleIcon collapsed\" id=\"cm-descToggleIcon\"></i>-->                    <div id=\"cm-consentDesc\" class=\"togglebar collapsed\" aria-live=\"polite\" tabindex=\"-1\">                        <div class=\"checkBoxOption\" style=\"display:none;\">                            <label id=\"ck_1_label\" class=\"container greyed-text\">Necessary                                <input type=\"checkbox\" name=\"necessary\" for=\"ck_1\" id=\"ck_1\" class=\"cmCat-checkboxes\" checked=\"\" disabled=\"\" tabindex=\"-1\">                                <span class=\"checkmark\" role=\"checkbox\" id=\"checkmark_ck_1\" tabindex=\"0\" aria-checked=\"true\" aria-labelledby=\"ck_1_label\" disabled=\"\"></span>                            </label>                            <p>These cookies are necessary to run the core functionalities of this website, e.g. security related functions. With these cookies we can also detect if you want to stay logged into your profile to provide you with fast access to our services after revisiting our website.</p>                        </div>                        <div class=\"checkBoxOption\">                            <label id=\"ck_2_label\" class=\"container\">Analytics                                <input type=\"checkbox\" name=\"statistics\" for=\"ck_2\" id=\"ck_2\" class=\"cmCat-checkboxes\" tabindex=\"-1\">                                <span class=\"checkmark\" role=\"checkbox\" id=\"checkmark_ck_2\" tabindex=\"-1\" aria-checked=\"false\" aria-labelledby=\"ck_2_label\"></span>                            </label>                            <p></p><ul>\n<li>Monitor website traffic and optimize your user experience</li>\n<li>Evaluate which marketing channels are performing better</li>\n<li>Analyse aggregated data about usage of the website to understand our customers. Randomized identifiers shared with partners.</li>\n</ul><p></p>                        </div>                        <div class=\"checkBoxOption\">                            <label id=\"ck_3_label\" class=\"container\">Personalization                                <input type=\"checkbox\" name=\"comfort\" for=\"ck_3\" id=\"ck_3\" class=\"cmCat-checkboxes\" tabindex=\"-1\">                                <span class=\"checkmark\" role=\"checkbox\" id=\"checkmark_ck_3\" tabindex=\"-1\" aria-checked=\"false\" aria-labelledby=\"ck_3_label\"></span>                            </label>                            <p></p><ul>\n<li>Store your preferences from previous visits</li>\n<li>Collect user feedback to improve our website</li>\n<li>Evaluate your interests to provide you unique customised content and offers</li>\n</ul><p></p>                        </div>                        <div class=\"checkBoxOption\">                            <label id=\"ck_4_label\" class=\"container\">Advertising                                <input type=\"checkbox\" name=\"marketing\" for=\"ck_4\" id=\"ck_4\" class=\"cmCat-checkboxes\" tabindex=\"-1\">                                <span class=\"checkmark\" role=\"checkbox\" id=\"checkmark_ck_4\" tabindex=\"-1\" aria-checked=\"false\" aria-labelledby=\"ck_4_label\" aria-controls=\"notification\"></span>                            </label>                            <div class=\"\" id=\"cm-notification\" aria-live=\"polite\">                                <div class=\"row-item\">                                    <p>By selecting this category, the categories Analytics and Personalization will also be activated.</p>                                </div>                            </div>                            <p></p><ul>\n<li>Make online and social advertising more relevant for you</li>\n<li>Invite specific customer groups to reconnect with our products later</li>\n<li>Share data with our advertising and social media partners via their third-party cookies to match your interests</li>\n</ul><p></p>                        </div>                        <div class=\"buttonView\">                            <div class=\"cc-row-buttons collapsed\" id=\"cm-allSelectBtns\">                                <!-- id=\"preferences_prompt_submit\" -->                                <button id=\"cm-selectSpecific\" class=\"button-secondary\" tabindex=\"0\" style=\"display: block;\">Save selection</button>                                <button id=\"cm-selectAllCheckboxes\" class=\"button-primary\" tabindex=\"0\" style=\"display: block;\">Agree to all</button>                            </div>                        </div>                    </div>                </div>                <div class=\"buttonView\">                    <div class=\"cc-row-buttons\" id=\"cm-allNoneBtns\">                        <!-- id=\"preferences_prompt_submit\" -->                        <button id=\"cm-acceptNone\" class=\"button-secondary\" tabindex=\"0\">I do not agree</button>                        <button id=\"cm-acceptAll\" class=\"button-primary\" tabindex=\"0\">Agree</button>                    </div>                </div>                <!--                <div class=\"layout-row paddingTop\">                    <div class=\"row-item\">                        <a href=\"https://www.lufthansa.com/xx/en/common/imprint\" class=\"icon-link\" target=\"_blank\">Imprint</a>                    </div>                </div>                -->            </div>        </div>    </div></div>",
+    "text": "Privacy settings\nWe use cookies and similar technologies that are necessary to run the app and the website. Additional cookies are only used with your consent. We use them to access, analyse and store information such as the characteristics of your device as well as certain personal data (IP addresses, navigation usage, geolocation data or unique identifiers). The processing of your data serves various purposes: Analytics cookies allow us to analyse our performance to offer you a better online experience and evaluate the efficiency of our campaigns. Personalisation cookies give you access to a customised experience of our website with usage-based offers and support. Finally, Advertising cookies are placed by third-party companies processing your data to create audiences lists to deliver targeted ads on social media and the internet. You may freely give, refuse or withdraw your consent at any time using the link provided at the bottom of each page. You can consent to our use of cookies by clicking on Agree. For more information on which data is collected and how it is shared with our partners please read our privacy and cookie policy : Privacy Policy Cookie Policy\nImprint\nMy settings\nI do not agree\nAgree"
+}

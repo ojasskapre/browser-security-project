@@ -1,0 +1,40 @@
+{
+    "position": {
+        "x": 288,
+        "y": 784
+    },
+    "size": {
+        "height": 246,
+        "width": 1344
+    },
+    "z_index": "9999",
+    "class": "cookieNotification___1bnln cookieNotificationEnabled___uFXKZ",
+    "id": "",
+    "background_color": "rgba(1, 20, 44, 1)",
+    "color": "rgba(255, 255, 255, 1)",
+    "border": "0px none rgb(255, 255, 255)",
+    "screen_shot_path": "./results/citigroup/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Notice",
+            "url": "https://www.citigroup.com/global/privacy",
+            "font_size": "16px",
+            "font_weight": "500",
+            "color": "rgba(37, 91, 227, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "OK",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(37, 91, 227, 1)"
+        }
+    ],
+    "number_of_buttons": 1,
+    "html_code": "<div class=\"cookieNotification___1bnln cookieNotificationEnabled___uFXKZ\"><div id=\"disclaimer\"><div class=\"content___2GgMr\"><div class=\"headerContainer___196js\"><p>Why cookies on the Citigroup website?</p></div><div class=\"bodyContainer___WxTWH\"><p>This website uses functional cookies to optimize the user experience by adapting to the type of device used and to analyze aggregate web traffic. These cookies, which do not identify individual users, help ensure that the website functions as expected. If you want to learn more, please read our <a target=\"_blank\" tabindex=\"0\" href=\"/global/privacy\">Privacy Notice</a>.</p><button type=\"button\" class=\"lmn-text-color-inverse accept-btn cookieNotificationAccept___1uvY7 lmn-btn lmn-btn-primary\"><span>OK</span></button></div></div></div></div>",
+    "text": "Why cookies on the Citigroup website?\nThis website uses functional cookies to optimize the user experience by adapting to the type of device used and to analyze aggregate web traffic. These cookies, which do not identify individual users, help ensure that the website functions as expected. If you want to learn more, please read our Privacy Notice.\nOK"
+}

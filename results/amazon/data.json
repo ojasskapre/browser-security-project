@@ -1,0 +1,80 @@
+{
+    "position": {
+        "x": 0,
+        "y": 742
+    },
+    "size": {
+        "height": 338,
+        "width": 1920
+    },
+    "z_index": "1000",
+    "class": "",
+    "id": "sp-cc",
+    "background_color": "rgba(246, 246, 246, 1)",
+    "color": "rgba(15, 17, 17, 1)",
+    "border": "1px solid rgb(221, 221, 221)",
+    "screen_shot_path": "./results/amazon/main_banner.png",
+    "links": [
+        {
+            "text": "Continue without accepting",
+            "url": "https://www.amazon.co.uk/#",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Notice",
+            "url": "https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Notice",
+            "url": "https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "103 third parties",
+            "url": "https://www.amazon.co.uk/cookieprefs/partners",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Preferences",
+            "url": "https://www.amazon.co.uk/cookieprefs?ref_=ya_d_l_cookie_prefs",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Privacy Notice",
+            "url": "https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(0, 113, 133, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Customise Cookies",
+            "url": "https://www.amazon.co.uk/cookieprefs?ref_=portal_banner_cpp",
+            "font_size": "13px",
+            "font_weight": "400",
+            "color": "rgba(15, 17, 17, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 7,
+    "buttons": [],
+    "number_of_buttons": 0,
+    "html_code": "<form id=\"sp-cc\" method=\"post\" action=\"/privacyprefs/retail/v1/acceptall\"><input type=\"hidden\" name=\"anti-csrftoken-a2z\" value=\"hFj1uEvILt1ahRKQOSpID57oflR4wgpVPYZCLJkLlDjIAAAAAGVp0Mo0YTRkNTY3Yi03MDE4LTRlZmQtODRjMS0yMmEwMWU4ODkxNmE=\"><input type=\"hidden\" name=\"timeStamp\" value=\"1701433546037\"><input type=\"hidden\" name=\"locale\" value=\"en_GB\"><input type=\"hidden\" name=\"isMobile\" value=\"false\"><input type=\"hidden\" name=\"treatmentName\" value=\"ADPT_COOKIE_BANNER_CUSTOMIZE_TEST_724232_C\"><input type=\"hidden\" name=\"userType\" value=\"UNAUTHENTICATED\"><div id=\"sp-cc-rejectall-container\"><a id=\"sp-cc-rejectall-link\" class=\"a-link-emphasis\" href=\"#\" role=\"button\">Continue without accepting</a></div><div class=\"sp-cc-text\"><h4 class=\"a-spacing-small\">Select Your Cookie Preferences</h4><p class=\"a-spacing-none\"></p><p>We use cookies and similar tools that are necessary to enable you to make purchases, to enhance your shopping experiences, and to provide our services, as detailed in our <a href=\"/gp/help/customer/display.html?nodeId=201890250&amp;ref_=footer_cookies_notice\">Cookie Notice</a>. We also use these cookies to understand how customers use our services (for example, by measuring site visits) so we can make improvements.</p>\n<p>If you agree, we\u2019ll also use cookies to complement your shopping experience across the Amazon stores as described in our <a href=\"/gp/help/customer/display.html?nodeId=201890250&amp;ref_=footer_cookies_notice\">Cookie Notice</a>. Your choice applies to using first-party and third-party advertising cookies on this service. Cookies store or access standard device information such as a unique identifier. The <a href=\"/cookieprefs/partners\">103 third parties</a> who use cookies on this service do so for their purposes of displaying and measuring personalised ads, generating audience insights, and developing and improving products. Click \"Continue without accepting\" to reject, or \"Customize Cookies\" to make more detailed advertising choices, or learn more. You can change your choices at any time by visiting <a href=\"/cookieprefs?ref_=ya_d_l_cookie_prefs\">Cookie Preferences</a>, as described in the Cookie Notice. To learn more about how and for what purposes Amazon uses personal information (such as Amazon Store order history), please visit our <a href=\"/gp/help/customer/display.html?nodeId=201909010&amp;ref_=footer_privacy\">Privacy Notice</a>.</p><div id=\"sp-cc-error\" class=\"a-box a-alert-inline a-alert-inline-error aok-hidden a-spacing-top-base\" role=\"alert\"><div class=\"a-box-inner a-alert-container\"><i class=\"a-icon a-icon-alert\"></i><div class=\"a-alert-content\">Sorry, there was a problem saving your cookie preferences. Try again.</div></div></div></div><div class=\"sp-cc-buttons\"><span class=\"a-button a-button-primary\" id=\"a-autoid-0\"><span class=\"a-button-inner\"><input id=\"sp-cc-accept\" tabindex=\"1\" name=\"accept\" class=\"a-button-input celwidget\" type=\"submit\" value=\"all\" data-csa-c-id=\"2bq0td-fq3vbb-8iz2os-e6glp3\" aria-labelledby=\"a-autoid-0-announce\" data-cel-widget=\"sp-cc-accept\"><span class=\"a-button-text\" aria-hidden=\"true\" id=\"a-autoid-0-announce\">Accept Cookies</span></span></span><span class=\"a-button a-button-base\" id=\"a-autoid-1\"><span class=\"a-button-inner\"><a id=\"sp-cc-customize\" tabindex=\"2\" href=\"/cookieprefs?ref_=portal_banner_cpp\" class=\"a-button-text a-text-center celwidget\" data-csa-c-id=\"l3ugcc-rzhznt-t6u931-s2ot03\" data-cel-widget=\"sp-cc-customize\">Customise Cookies</a></span></span></div></form>",
+    "text": "Continue without accepting\nSelect Your Cookie Preferences\nWe use cookies and similar tools that are necessary to enable you to make purchases, to enhance your shopping experiences, and to provide our services, as detailed in our Cookie Notice. We also use these cookies to understand how customers use our services (for example, by measuring site visits) so we can make improvements.\nIf you agree, we\u2019ll also use cookies to complement your shopping experience across the Amazon stores as described in our Cookie Notice. Your choice applies to using first-party and third-party advertising cookies on this service. Cookies store or access standard device information such as a unique identifier. The 103 third parties who use cookies on this service do so for their purposes of displaying and measuring personalised ads, generating audience insights, and developing and improving products. Click \"Continue without accepting\" to reject, or \"Customize Cookies\" to make more detailed advertising choices, or learn more. You can change your choices at any time by visiting Cookie Preferences, as described in the Cookie Notice. To learn more about how and for what purposes Amazon uses personal information (such as Amazon Store order history), please visit our Privacy Notice.\nAccept Cookies\nCustomise Cookies"
+}

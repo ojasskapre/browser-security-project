@@ -1,0 +1,38 @@
+{
+    "position": {
+        "x": 160,
+        "y": 1004
+    },
+    "size": {
+        "height": 76,
+        "width": 1600
+    },
+    "z_index": "1900000010",
+    "class": "consent-banner",
+    "id": "",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/ring/main_banner.png",
+    "links": [],
+    "number_of_links": 0,
+    "buttons": [
+        {
+            "text": "Manage Settings",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(25, 152, 213, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Got it",
+            "font_size": "18px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(25, 152, 213, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div class=\"consent-banner\"><span class=\"consent-banner-copy font__default size-small\">This site uses cookies for marketing and analytics pursuant to our Privacy Notice. By continuing to browse this site, you agree to the placement of such cookies.</span><div class=\"consent-banner-buttons\"><button class=\"consent--manage btn--secondary btn--outlined\">Manage Settings</button><button class=\"consent--accept btn--secondary\">Got it</button></div></div>",
+    "text": "This site uses cookies for marketing and analytics pursuant to our Privacy Notice. By continuing to browse this site, you agree to the placement of such cookies.\nManage Settings\nGot it"
+}

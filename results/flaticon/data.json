@@ -1,0 +1,38 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1009
+    },
+    "size": {
+        "height": 71,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat bottom ot-wo-title active",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(11, 34, 57, 1)",
+    "color": "rgba(95, 125, 149, 1)",
+    "border": "0px none rgb(95, 125, 149)",
+    "screen_shot_path": "./results/flaticon/main_banner.png",
+    "links": [],
+    "number_of_links": 0,
+    "buttons": [
+        {
+            "text": "Do Not Sell My Personal Information",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(43, 196, 138, 1)",
+            "background_color": "rgba(11, 34, 57, 1)"
+        },
+        {
+            "text": "Accept Cookies",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(74, 210, 149, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat bottom ot-wo-title active\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\" style=\"bottom: 0px;\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-modal=\"true\" aria-label=\"Privacy\"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><div id=\"onetrust-policy-text\">This website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners.</div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\"><button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\">Do Not Sell My Personal Information</button>  <button id=\"onetrust-accept-btn-handler\">Accept Cookies</button></div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"></div><!-- Close Button END--></div></div>",
+    "text": "This website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners.\nDo Not Sell My Personal Information Accept Cookies"
+}

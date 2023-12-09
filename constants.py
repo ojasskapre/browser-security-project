@@ -1,4 +1,4 @@
-banner_text_keywords = ['cookie', 'cookies', 'consent', 'privacy', 'gdpr', 'data', 'preferences', 'tracking', 'agree', 'accept', 'analytics', 'personalization', 'advertising',
+banner_text_keywords = ['cookie', 'cookies', 'consent', 'privacy', 'gdpr', 'preferences', 'tracking', 'agree', 'accept', 'analytics', 'personalization', 'advertising',
                         'decline', 'reject', 'opt-out', 'opt-in', 'personal', 'information', 'consentimento', 'куки', 'согласие', 'конфиденциальность', 'предпочтения', 'соглашаетесь']
 
 button_link_keywords = ['agree', 'accept', 'ok', 'continue', 'consent', 'decline', 'reject', 'no thanks', 'settings', 'notice', 'got it', 'privacy', 'allow', 'deny', 'allow selection',

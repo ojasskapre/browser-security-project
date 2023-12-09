@@ -1,0 +1,40 @@
+{
+    "position": {
+        "x": 0,
+        "y": 984
+    },
+    "size": {
+        "height": 96,
+        "width": 1920
+    },
+    "z_index": "9999",
+    "class": "cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-170793312 ",
+    "id": "",
+    "background_color": "rgba(215, 215, 215, 1)",
+    "color": "rgba(51, 51, 51, 1)",
+    "border": "",
+    "screen_shot_path": "./results/ieee/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Policy.",
+            "url": "https://www.ieee.org/about/help/security_privacy.html",
+            "font_size": "16px",
+            "font_weight": "700",
+            "color": "rgba(0, 102, 153, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Accept & Close",
+            "url": null,
+            "font_size": "14.4px",
+            "font_weight": "700",
+            "color": "rgba(0, 102, 153, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_links": 2,
+    "buttons": [],
+    "number_of_buttons": 0,
+    "html_code": "<div xmlns=\"http://www.w3.org/1999/xhtml\" role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-170793312 \" style=\"\"><!--googleoff: all--><span id=\"cookieconsent:desc\" class=\"cc-message\">IEEE websites place cookies on your device to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our <a aria-label=\"learn more about cookies\" role=\"button\" tabindex=\"0\" class=\"cc-link\" href=\"https://www.ieee.org/about/help/security_privacy.html\" target=\"_blank\">Privacy Policy.</a></span><div class=\"cc-compliance\"><a aria-label=\"dismiss cookie message\" role=\"button\" tabindex=\"0\" class=\"cc-btn cc-dismiss\">Accept &amp; Close</a></div><!--googleon: all--></div>",
+    "text": "IEEE websites place cookies on your device to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our Privacy Policy.\nAccept & Close"
+}

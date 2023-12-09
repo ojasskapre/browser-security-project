@@ -1,0 +1,86 @@
+{
+    "position": {
+        "x": 0,
+        "y": 875
+    },
+    "size": {
+        "height": 205,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otCenterRounded default vertical-align-content",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(96, 96, 96, 1)",
+    "border": "0px none rgb(96, 96, 96)",
+    "screen_shot_path": "./results/teamviewer/main_banner.png",
+    "links": [
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.teamviewer.com/en/privacy-policy/",
+            "font_size": "13px",
+            "font_weight": "400",
+            "color": "rgba(20, 20, 20, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Privacy Policy",
+            "url": "https://www.teamviewer.com/en/privacy-policy/",
+            "font_size": "13px",
+            "font_weight": "400",
+            "color": "rgba(20, 20, 20, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Download TeamViewer",
+            "url": "https://download.teamviewer.com/full?src=cookie-banner",
+            "font_size": "13px",
+            "font_weight": "700",
+            "color": "rgba(20, 20, 20, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Imprint",
+            "url": "https://www.teamviewer.com/en/address/",
+            "font_size": "13px",
+            "font_weight": "400",
+            "color": "rgba(20, 20, 20, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "",
+            "url": "https://www.teamviewer.com/en/address/",
+            "font_size": "7.2625px",
+            "font_weight": "400",
+            "color": "rgba(20, 20, 20, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 5,
+    "buttons": [
+        {
+            "text": "",
+            "font_size": "7.175px",
+            "font_weight": "400",
+            "color": "rgba(116, 116, 116, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Accept All Cookies",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(5, 10, 82, 1)"
+        },
+        {
+            "text": "Cookies Settings",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(5, 10, 82, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otCenterRounded default vertical-align-content\" tabindex=\"0\"><div class=\"ot-sdk-container\" role=\"dialog\" aria-describedby=\"onetrust-policy-text\" aria-labelledby=\"onetrust-policy-title\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-twelve ot-sdk-columns\"><div id=\"onetrust-policy\"><div class=\"banner-header\"><div class=\"banner_logo\"></div></div><h3 id=\"onetrust-policy-title\">Cookie Consent</h3><p id=\"onetrust-policy-text\"><br>\n<p>To improve your browsing experience on this website, TeamViewer and its partners would like to place&nbsp;cookies and similar technologies (<strong>\u201cCookies\u201d</strong>)&nbsp;on&nbsp;your device. That enables&nbsp;us to analyze website usage&nbsp;and optimize our marketing efforts for the best possible user experience.&nbsp;By clicking&nbsp;<strong>\u201cAccept Cookies\u201d</strong>&nbsp;you agree to Cookie placement and respective use, as well as the subsequent processing of the collected data for the purposes of personalized advertising and marketing. Detailed information about the Cookies, the exact purposes, third-party recipients, Cookie lifetime, and more can be found in&nbsp;our\u202f <a href=\"https://www.teamviewer.com/en/privacy-policy/\" rel=\"noopener noreferrer\" target=\"_blank\">Cookie Policy</a>&nbsp;and \u202f<a href=\"https://www.teamviewer.com/en/privacy-policy/\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy Policy</a>.&nbsp;You can always change your\u202f Cookie Settings\u202fto your own preference.</p>\n<div class=\"wd-cookie-banner_additional-links\">\n  <a class=\"wd-cookie-banner_link wd-cookie-banner_link--highlighted\" href=\"https://download.teamviewer.com/full?src=cookie-banner\">Download TeamViewer</a>\n  <a class=\"wd-cookie-banner_link\" href=\"https://www.teamviewer.com/en/address/\">Imprint</a>\n</div></p></div><div id=\"banner-options\"><div class=\"banner-option\"><button aria-expanded=\"false\" class=\"banner-option-input\"><span class=\"banner-option-header\"><span>Imprint</span> <span class=\"ot-arrow-container\"></span></span></button><div class=\"banner-option-details\" id=\"option-details-1\"><p><a href=\"https://www.teamviewer.com/en/address/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.teamviewer.com/en/address/</a></p></div></div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\"><div id=\"onetrust-button-group\"><div class=\"banner-actions-container\"> <button id=\"onetrust-accept-btn-handler\">Accept All Cookies</button></div><button id=\"onetrust-pc-btn-handler\">Cookies Settings</button></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"></div><!-- Close Button END--></div></div></div>",
+    "text": "Cookie Consent\n\nTo improve your browsing experience on this website, TeamViewer and its partners would like to place cookies and similar technologies (\u201cCookies\u201d) on your device. That enables us to analyze website usage and optimize our marketing efforts for the best possible user experience. By clicking \u201cAccept Cookies\u201d you agree to Cookie placement and respective use, as well as the subsequent processing of the collected data for the purposes of personalized advertising and marketing. Detailed information about the Cookies, the exact purposes, third-party recipients, Cookie lifetime, and more can be found in our\u202f Cookie Policy and \u202fPrivacy Policy. You can always change your\u202f Cookie Settings\u202fto your own preference.\nDownload TeamViewer Imprint\nAccept All Cookies\nCookies Settings"
+}

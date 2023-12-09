@@ -1,0 +1,55 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1009
+    },
+    "size": {
+        "height": 71,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat bottom ot-wo-title",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(72, 86, 94, 1)",
+    "border": "0px none rgb(72, 86, 94)",
+    "screen_shot_path": "./results/digicert/main_banner.png",
+    "links": [
+        {
+            "text": "Click here",
+            "url": null,
+            "font_size": "13.008px",
+            "font_weight": "700",
+            "color": "rgba(98, 97, 94, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Privacy Policy",
+            "url": "https://www.digicert.com/digicert-privacy-policy/?inid=dc_cookiebanner_privacy-policy",
+            "font_size": "13.008px",
+            "font_weight": "700",
+            "color": "rgba(56, 96, 190, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 2,
+    "buttons": [
+        {
+            "text": "Accept Cookies",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(15, 157, 255, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "14.4px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat bottom ot-wo-title\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\" style=\"bottom: 0px;\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Privacy\"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><div id=\"onetrust-policy-text\">This site uses cookies and other tracking technologies to assist with navigation and your ability to provide feedback, analyze your use of our products and services, assist with our promotional and marketing efforts, and provide content from third parties. <a class=\"optanon-show-settings\" style=\"cursor: pointer;\">Click here</a> to learn more and manage your preferences. <a id=\"privacy-policy\" href=\"https://www.digicert.com/digicert-privacy-policy/?inid=dc_cookiebanner_privacy-policy\">Privacy Policy</a></div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\">  <button id=\"onetrust-accept-btn-handler\">Accept Cookies</button></div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"><button class=\"onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon\" style=\"background-image: url(&quot;https://cdn.cookielaw.org/logos/static/ot_close.svg&quot;);\" aria-label=\"Close\"></button></div><!-- Close Button END--></div></div>",
+    "text": "This site uses cookies and other tracking technologies to assist with navigation and your ability to provide feedback, analyze your use of our products and services, assist with our promotional and marketing efforts, and provide content from third parties. Click here to learn more and manage your preferences. Privacy Policy\nAccept Cookies"
+}

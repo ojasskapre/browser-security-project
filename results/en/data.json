@@ -1,0 +1,45 @@
+{
+    "position": {
+        "x": 0,
+        "y": 0
+    },
+    "size": {
+        "height": 1080,
+        "width": 1920
+    },
+    "z_index": "2147483642",
+    "class": "didomi-popup-backdrop didomi-notice-popup didomi-popup__backdrop",
+    "id": "didomi-popup",
+    "background_color": "rgba(255, 255, 255, 0.8)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/en/main_banner.png",
+    "links": [],
+    "number_of_links": 0,
+    "buttons": [
+        {
+            "text": "Do not Share or Sell my Personal Information",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(68, 68, 68, 1)",
+            "background_color": "rgba(238, 238, 238, 1)"
+        },
+        {
+            "text": "Limit the Use of My Sensitive Personal Information",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(68, 68, 68, 1)",
+            "background_color": "rgba(238, 238, 238, 1)"
+        },
+        {
+            "text": "Agree and Close",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(67, 160, 71, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"didomi-popup\" class=\"didomi-popup-backdrop didomi-notice-popup didomi-popup__backdrop\"><style type=\"text/css\" scoped=\"true\">\n      #didomi-host .didomi-exterior-border {\n        border-color: rgba(67,160,71,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(67,160,71,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      </style><div class=\"didomi-exterior-border didomi-popup__exterior-border\"><div class=\"didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-mixed-type\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Welcome to Softonic! Consent Management\"><div class=\"didomi-popup-view\" tabindex=\"-1\" role=\"document\" style=\"outline: none;\"><div class=\"didomi-popup-notice-text-container\"><div class=\"didomi-popup-notice-text\"><span><p>Softonic uses own and third-party cookies to show personalized content and ads on Softonic\u2019s properties and other sites, to provide social media features, to create an anonymous profile based on browsing behavior (visited pages, frequency, time) and to analyze how our services are used.</p><p>You can decide what type of cookies you accept or withdraw the consent at any time.</p></span></div></div><div id=\"buttons\" class=\"multiple didomi-buttons didomi-popup-notice-buttons\"><button id=\"didomi-notice-do-not-sell-button\" class=\"didomi-components-button didomi-button didomi-button-standard standard-button\" aria-label=\"Do not share or sell my personal information\" style=\"color: rgb(68, 68, 68); background-color: rgb(238, 238, 238); border-radius: 0px; border-color: rgba(34, 34, 34, 0.2); border-width: 1px; display: block !important;\">Do not Share or Sell my Personal Information</button><button id=\"didomi-notice-limit-button\" class=\"didomi-components-button didomi-button didomi-button-standard standard-button\" aria-label=\"Limit the use of my sensitive personal information\" style=\"color: rgb(68, 68, 68); background-color: rgb(238, 238, 238); border-radius: 0px; border-color: rgba(34, 34, 34, 0.2); border-width: 1px; display: block !important;\">Limit the Use of My Sensitive Personal Information</button><button id=\"didomi-notice-agree-button\" class=\"didomi-components-button didomi-button didomi-components-button--color didomi-button-highlight highlight-button\" aria-label=\"Agree and close\" style=\"color: rgb(255, 255, 255); background-color: rgb(67, 160, 71); border-radius: 0px; border-color: rgba(67, 160, 71, 0.3); border-width: 1px; display: block !important;\">Agree and Close</button></div><div></div></div></div></div></div>",
+    "text": "Softonic uses own and third-party cookies to show personalized content and ads on Softonic\u2019s properties and other sites, to provide social media features, to create an anonymous profile based on browsing behavior (visited pages, frequency, time) and to analyze how our services are used.\nYou can decide what type of cookies you accept or withdraw the consent at any time.\nDo not Share or Sell my Personal Information\nLimit the Use of My Sensitive Personal Information\nAgree and Close"
+}

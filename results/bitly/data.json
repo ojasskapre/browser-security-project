@@ -1,0 +1,54 @@
+{
+    "position": {
+        "x": 0,
+        "y": 974
+    },
+    "size": {
+        "height": 106,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat otRelFont bottom vertical-align-content",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(237, 242, 254, 1)",
+    "color": "rgba(29, 31, 33, 1)",
+    "border": "0px none rgb(29, 31, 33)",
+    "screen_shot_path": "./results/bitly/main_banner.png",
+    "links": [
+        {
+            "text": "Cookie Policy",
+            "url": "https://bitly.com/pages/cookies",
+            "font_size": "15px",
+            "font_weight": "400",
+            "color": "rgba(29, 31, 33, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Cookie Settings",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(42, 91, 215, 1)",
+            "background_color": "rgba(237, 242, 254, 1)"
+        },
+        {
+            "text": "Accept All",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(42, 91, 215, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "14.4px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat otRelFont bottom vertical-align-content\" tabindex=\"0\" role=\"region\" aria-label=\"Our website is sweeter with cookies \ud83c\udf6a \"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Our website is sweeter with cookies \ud83c\udf6a \"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><h2 id=\"onetrust-policy-title\">Our website is sweeter with cookies \ud83c\udf6a </h2><div id=\"onetrust-policy-text\">We use cookies on our website and services. They help the site work properly and give you a personalized experience, like targeted ads based on your interests (if you want them). To manage your cookie preferences and learn more, click on Cookie Settings. You can also find more information about cookies and your rights in our<a href=\"https://bitly.com/pages/cookies\">Cookie Policy</a>. Sweeten your experience with cookies - not the kind you eat, unfortunately!</div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\"><button id=\"onetrust-pc-btn-handler\">Cookie Settings</button>  <button id=\"onetrust-accept-btn-handler\">Accept All</button></div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"><button class=\"onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon\" style=\"background-image: url(&quot;https://cdn.cookielaw.org/logos/static/ot_close.svg&quot;);\" aria-label=\"Close\"></button></div><!-- Close Button END--></div></div>",
+    "text": "Our website is sweeter with cookies \ud83c\udf6a\nWe use cookies on our website and services. They help the site work properly and give you a personalized experience, like targeted ads based on your interests (if you want them). To manage your cookie preferences and learn more, click on Cookie Settings. You can also find more information about cookies and your rights in ourCookie Policy. Sweeten your experience with cookies - not the kind you eat, unfortunately!\nCookie Settings\nAccept All"
+}

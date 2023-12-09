@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 657
+    },
+    "size": {
+        "height": 423,
+        "width": 1920
+    },
+    "z_index": "99999",
+    "class": "cc-banner",
+    "id": "",
+    "background_color": "rgba(1, 50, 75, 1)",
+    "color": "rgba(255, 255, 255, 1)",
+    "border": "0px none rgb(255, 255, 255)",
+    "screen_shot_path": "./results/springer/main_banner.png",
+    "links": [
+        {
+            "text": "privacy policy",
+            "url": "https://link.springer.com/privacystatement",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Accept all cookies",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(0, 0, 0, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Manage preferences",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<section class=\"cc-banner\" data-cc-banner=\"\" data-nosnippet=\"\" aria-labelledby=\"cc-banner-label\">\n        <div class=\"cc-banner__content\">\n            <header class=\"cc-banner__header\">\n                <h2 class=\"cc-banner__title\" id=\"cc-banner-label\">Your Privacy</h2>\n\t\t\t</header>\n            <div class=\"cc-banner__body\">\n                <p class=\"cc-banner__copy\">\n                    We use cookies to make sure that our website works properly, as well as some \u2018optional\u2019 cookies to personalise content and advertising, provide social media features and analyse how people use our site. By accepting some or all optional cookies you give consent to the processing of your personal data, including transfer to third parties, some in countries outside of the European Economic Area that do not offer the same data protection standards as the country where you live. You can decide which optional cookies to accept by clicking on \u2018Manage Settings\u2019, where you can also find more information about how your personal data is processed.\n                    Further information can be found in our <a href=\"https://link.springer.com/privacystatement\">privacy policy</a>.\n\t\t\t\t</p>\n            </div>\n            <div class=\"cc-banner__footer\">\n                <button data-cc-action=\"accept\" class=\"cc-button cc-button--contrast cc-banner__button cc-banner__button-accept\">Accept all <span class=\"cc-banner__button-break\">cookies</span></button>\n                \n                <button data-cc-action=\"preferences\" class=\"cc-button cc-button--link cc-button--contrast cc-banner__button cc-banner__button-preferences\">Manage preferences</button>\n            </div>\n\t\t</div>\n    </section>",
+    "text": "Your Privacy\nWe use cookies to make sure that our website works properly, as well as some \u2018optional\u2019 cookies to personalise content and advertising, provide social media features and analyse how people use our site. By accepting some or all optional cookies you give consent to the processing of your personal data, including transfer to third parties, some in countries outside of the European Economic Area that do not offer the same data protection standards as the country where you live. You can decide which optional cookies to accept by clicking on \u2018Manage Settings\u2019, where you can also find more information about how your personal data is processed. Further information can be found in our privacy policy.\nAccept all cookies\nManage preferences"
+}

@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 750
+    },
+    "size": {
+        "height": 330,
+        "width": 1920
+    },
+    "z_index": "99999",
+    "class": "cc-banner cc-banner--is-canary",
+    "id": "",
+    "background_color": "rgba(1, 50, 75, 1)",
+    "color": "rgba(255, 255, 255, 1)",
+    "border": "0px none rgb(255, 255, 255)",
+    "screen_shot_path": "./results/nature/main_banner.png",
+    "links": [
+        {
+            "text": "privacy policy",
+            "url": "https://www.nature.com/info/privacy",
+            "font_size": "16px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Manage preferences",
+            "font_size": "16px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Accept all cookies",
+            "font_size": "16px",
+            "font_weight": "700",
+            "color": "rgba(2, 94, 141, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<dialog class=\"cc-banner cc-banner--is-canary\" data-cc-banner=\"\" data-nosnippet=\"\" aria-labelledby=\"cc-banner-label\" open=\"\">\n\t\t\t<div class=\"cc-banner__content\">\n\t\t\t\t<div class=\"cc-banner__container\">\n\t\t\t\t\t<header class=\"cc-banner__header\">\n\t\t\t\t\t\t<h2 class=\"cc-banner__title\" id=\"cc-banner-label\">Your privacy, your choice</h2>\n\t\t\t\t\t</header>\n\t\t\t\t\t<div class=\"cc-banner__body\">\n\t\t\t\t\t\t<div class=\"cc-banner__policy\">\n\t\t\t\t\t\t\t<p class=\"cc-banner__copy\">\n\t\t\t\t\t\t\t\tWe use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"cc-banner__copy\">\n\t\t\t\t\t\t\t\tBy accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our <a href=\"https://www.nature.com/info/privacy\" data-cc-action=\"privacy\">privacy policy</a> for more information on the use of your personal data.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"cc-banner__copy\">\n\t\t\t\t\t\t\t\t<button type=\"button\" data-cc-action=\"preferences\" class=\"cc-button cc-button--link cc-button--text\">Manage preferences</button> for further information and to change your choices.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"cc-banner__footer\">\n\t\t\t\t\t\t<button data-cc-action=\"accept\" class=\"cc-button cc-button--secondary cc-button--contrast cc-banner__button cc-banner__button-accept\">Accept all cookies</button>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</dialog>",
+    "text": "Your privacy, your choice\nWe use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media.\nBy accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data.\nManage preferences for further information and to change your choices.\nAccept all cookies"
+}

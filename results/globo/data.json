@@ -1,0 +1,48 @@
+{
+    "position": {
+        "x": 293,
+        "y": 990
+    },
+    "size": {
+        "height": 74,
+        "width": 1334
+    },
+    "z_index": "2147483647",
+    "class": "cookie-banner-lgpd-visible cookie-banner-lgpd-animated",
+    "id": "cookie-banner-lgpd",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(47, 49, 52, 1)",
+    "border": "1px solid rgb(238, 238, 238)",
+    "screen_shot_path": "./results/globo/main_banner.png",
+    "links": [
+        {
+            "text": "Portal da Privacidade",
+            "url": "https://privacidade.globo.com/",
+            "font_size": "12px",
+            "font_weight": "400",
+            "color": "rgba(0, 105, 222, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Pol\u00edtica de Privacidade.",
+            "url": "https://privacidade.globo.com/privacy-policy/",
+            "font_size": "12px",
+            "font_weight": "400",
+            "color": "rgba(0, 105, 222, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 2,
+    "buttons": [
+        {
+            "text": "Prosseguir",
+            "font_size": "14px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 105, 222, 1)"
+        }
+    ],
+    "number_of_buttons": 1,
+    "html_code": "<div id=\"cookie-banner-lgpd\" class=\"cookie-banner-lgpd-visible cookie-banner-lgpd-animated\" style=\"display:flex\"><div class=\"cookie-banner-lgpd-container\"><div class=\"cookie-banner-lgpd_text-box\"><span class=\"cookie-banner-lgpd_text\">N\u00f3s usamos cookies e outras tecnologias semelhantes para melhorar a sua experi\u00eancia em nossos servi\u00e7os, personalizar publicidade e recomendar conte\u00fado de seu interesse. Ao utilizar nossos servi\u00e7os, voc\u00ea est\u00e1 ciente dessa funcionalidade. Conhe\u00e7a nosso <a class=\"cookie-banner-lgpd-link cookie-banner-lgpd_privacy-portal-link\" target=\"_blank\" style=\"color:#0069de\" href=\"https://privacidade.globo.com/\">Portal da Privacidade</a><span> e consulte nossa </span><a class=\"cookie-banner-lgpd-link cookie-banner-lgpd_privacy-link\" target=\"_blank\" style=\"color:#0069de\" href=\"https://privacidade.globo.com/privacy-policy/\">Pol\u00edtica de Privacidade.</a></span></div><div class=\"cookie-banner-lgpd_button-box\"><button class=\"cookie-banner-lgpd_accept-button\" style=\"background-color:#0069de\">Prosseguir</button></div></div></div>",
+    "text": "N\u00f3s usamos cookies e outras tecnologias semelhantes para melhorar a sua experi\u00eancia em nossos servi\u00e7os, personalizar publicidade e recomendar conte\u00fado de seu interesse. Ao utilizar nossos servi\u00e7os, voc\u00ea est\u00e1 ciente dessa funcionalidade. Conhe\u00e7a nosso Portal da Privacidade e consulte nossa Pol\u00edtica de Privacidade.\nProsseguir"
+}

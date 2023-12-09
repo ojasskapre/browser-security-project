@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 154,
+        "y": 952
+    },
+    "size": {
+        "height": 96,
+        "width": 1613
+    },
+    "z_index": "1051",
+    "class": "ccpaCookieBanner_container",
+    "id": "ccpaCookieBanner",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/paypal/main_banner.png",
+    "links": [
+        {
+            "text": "Manage all cookies",
+            "url": "https://www.paypal.com/myaccount/privacy/cookiePrefs?locale=en_US",
+            "font_size": "14px",
+            "font_weight": "500",
+            "color": "rgba(0, 112, 186, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Yes, I accept",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 186, 1)"
+        },
+        {
+            "text": "No, I decline",
+            "font_size": "14px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 186, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"ccpaCookieBanner\" class=\"ccpaCookieBanner_container\"><div id=\"ccpaCookieContent_wrapper\" class=\"ccpaCookieBanner_content-container\"><p class=\"ccpaCookieBanner_content\">We use cookies to improve your experience on our site. May we use marketing cookies to show you personalized ads? <a id=\"manageCookiesLink\" href=\"https://www.paypal.com/myaccount/privacy/cookiePrefs?locale=en_US\" pagename=\"Digital Wallets, Money Management, and More | PayPal US|managecookies\" pa-marked=\"1\">Manage all cookies</a></p></div><div class=\"ccpaCookieBanner_buttonGroup\"><button id=\"acceptAllButton\" class=\"ccpaCookieBanner_top-button\" pagename=\"Digital Wallets, Money Management, and More | PayPal US|acceptcookies\" pa-marked=\"1\">Yes, I accept</button><button id=\"bannerDeclineButton\" aria-label=\"decline\" class=\"ccpaCookieBanner_bottom-button\" pa-marked=\"1\">No, I decline</button> </div></div>",
+    "text": "We use cookies to improve your experience on our site. May we use marketing cookies to show you personalized ads? Manage all cookies\nYes, I accept\nNo, I decline"
+}

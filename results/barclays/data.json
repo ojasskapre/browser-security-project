@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 920
+    },
+    "size": {
+        "height": 160,
+        "width": 1920
+    },
+    "z_index": "9998",
+    "class": "o-sticky-footer o-sticky-footer--intrusive o-sticky-footer--shadow",
+    "id": "",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(51, 51, 51, 1)",
+    "border": "0px none rgb(51, 51, 51)",
+    "screen_shot_path": "./results/barclays/main_banner.png",
+    "links": [
+        {
+            "text": "cookie policy",
+            "url": "https://www.barclays.co.uk/important-information/cookies-policy/",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(0, 118, 182, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Preferences",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(0, 118, 182, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Accept All",
+            "font_size": "16px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 118, 182, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div class=\"o-sticky-footer o-sticky-footer--intrusive o-sticky-footer--shadow\" role=\"banner\" aria-labelledby=\"barclays-gdpr__consent-pane-title\">    <div class=\"o-sticky-footer__content\">      <div class=\"m-cookie-prompt\">        <div class=\"m-cookie-prompt__content\">          <div class=\"m-cookie-prompt__head\">            <h2 class=\"m-cookie-prompt__heading\" id=\"barclays-gdpr__consent-pane-title\">Cookies</h2>          </div>          <div class=\"m-cookie-prompt__body\">            <p class=\"a-text\">              We\u2019d like to collect data from your device while you use this website. This helps give you the best experience, keeps your account secure and supports personalised marketing on our website and social media. Choose \u2018Accept all\u2019 to agree we can collect your data in this way, or for more options choose \u2018Preferences\u2019. Find out more: <a class=\"a-link\" target=\"_blank\" href=\"/important-information/cookies-policy/\">cookie policy</a>             </p>          </div>        </div>        <div class=\"m-cookie-prompt__menu\">          <div class=\"m-cookie-prompt__buttons\">            <div class=\"m-cookie-prompt__button\">              <button class=\"barclays-gdpr__preferences-button m-button m-button--full-width\">                <span class=\"m-button__text\">Preferences</span>              </button>            </div>            <div class=\"m-cookie-prompt__button\">              <button class=\"barclays-gdpr__accept-all-button m-button m-button--full-width m-button--primary\">                <span class=\"m-button__text\">Accept All</span>              </button>            </div>          </div>        </div>      </div>    </div>  </div>",
+    "text": "Cookies\nWe\u2019d like to collect data from your device while you use this website. This helps give you the best experience, keeps your account secure and supports personalised marketing on our website and social media. Choose \u2018Accept all\u2019 to agree we can collect your data in this way, or for more options choose \u2018Preferences\u2019. Find out more: cookie policy\nPreferences\nAccept All"
+}

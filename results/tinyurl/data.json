@@ -1,0 +1,38 @@
+{
+    "position": {
+        "x": 0,
+        "y": 991
+    },
+    "size": {
+        "height": 57,
+        "width": 1920
+    },
+    "z_index": "auto",
+    "class": "alert alert-info alert-dismissible text-center m-0",
+    "id": "cookies_section",
+    "background_color": "rgba(209, 236, 241, 1)",
+    "color": "rgba(28, 102, 115, 1)",
+    "border": "1px solid rgb(190, 229, 235)",
+    "screen_shot_path": "./results/tinyurl/main_banner.png",
+    "links": [],
+    "number_of_links": 0,
+    "buttons": [
+        {
+            "text": "Got it",
+            "font_size": "14px",
+            "font_weight": "400",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(8, 125, 168, 1)"
+        },
+        {
+            "text": "\u00d7",
+            "font_size": "24px",
+            "font_weight": "600",
+            "color": "rgba(28, 102, 115, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"cookies_section\" class=\"alert alert-info alert-dismissible text-center m-0\">\n  We use cookies to personalize and improve your experience on our site and to\n  serve you with relevant advertising. Visit our privacy policy for more\n  information on our data collection practices.\n\n  <button class=\"btn btn-sm btn-teal mr-3\">\n    Got it\n  </button> <button id=\"cookies_section_accept_btn\" type=\"button\" class=\"close\">\n    \u00d7\n  </button></div>",
+    "text": "We use cookies to personalize and improve your experience on our site and to serve you with relevant advertising. Visit our privacy policy for more information on our data collection practices. Got it\n\u00d7"
+}

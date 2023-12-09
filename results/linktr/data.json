@@ -1,0 +1,47 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1007
+    },
+    "size": {
+        "height": 73,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat otRelFont bottom ot-wo-title vertical-align-content ot-fade-in",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/linktr/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Policy & Cookie Notice.",
+            "url": "https://linktr.ee/s/privacy-policy-cookie-notice",
+            "font_size": "13.821px",
+            "font_weight": "700",
+            "color": "rgba(56, 96, 190, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Cookie Preferences",
+            "font_size": "13.821px",
+            "font_weight": "600",
+            "color": "rgba(0, 0, 0, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "",
+            "font_size": "15.3px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat otRelFont bottom ot-wo-title vertical-align-content ot-fade-in\" role=\"region\" aria-label=\"Cookie banner\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Privacy\"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><div id=\"onetrust-policy-text\">This site uses cookies for performance, analytics, and personalisation which helps us to improve our site and provide you with personalised content. You may choose to set \"Cookie Preferences\" to further manage your cookie selections. For more information please see our<a href=\"https://linktr.ee/s/privacy-policy-cookie-notice\" aria-label=\"More information about your privacy\">Privacy Policy &amp; Cookie Notice.</a></div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\"><button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\">Cookie Preferences</button>  </div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"><button class=\"onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon\" style=\"background-image: url(&quot;https://cdn-au.onetrust.com/logos/static/ot_close.svg&quot;);\" aria-label=\"Close\"></button></div><!-- Close Button END--></div></div>",
+    "text": "This site uses cookies for performance, analytics, and personalisation which helps us to improve our site and provide you with personalised content. You may choose to set \"Cookie Preferences\" to further manage your cookie selections. For more information please see ourPrivacy Policy & Cookie Notice.\nCookie Preferences"
+}

@@ -1,0 +1,63 @@
+{
+    "position": {
+        "x": 0,
+        "y": 984
+    },
+    "size": {
+        "height": 80,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat bottom ot-wo-title",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(17, 17, 17, 1)",
+    "border": "0px none rgb(17, 17, 17)",
+    "screen_shot_path": "./results/ikea/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Policy",
+            "url": "https://www.ikea.com/us/en/customer-service/privacy-policy/",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(17, 17, 17, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "California Notice at Collection",
+            "url": "https://www.ikea.com/us/en/customer-service/privacy-policy/#0bab4520-16a6-11ee-8ddc-edd1c826c198",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(17, 17, 17, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.ikea.com/us/en/customer-service/cookie-policy/",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(17, 17, 17, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 3,
+    "buttons": [
+        {
+            "text": "Your privacy choices",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(17, 17, 17, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Ok",
+            "font_size": "12px",
+            "font_weight": "700",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(17, 17, 17, 1)"
+        }
+    ],
+    "number_of_buttons": 2,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat bottom ot-wo-title\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\" style=\"bottom: 0px;\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Privacy\"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><div id=\"onetrust-policy-text\">IKEA US and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalization and for advertising, marketing, and social media. View our <a href=\"https://www.ikea.com/us/en/customer-service/privacy-policy/\">Privacy Policy </a>, <a href=\"https://www.ikea.com/us/en/customer-service/privacy-policy/#0bab4520-16a6-11ee-8ddc-edd1c826c198\">California Notice at Collection</a>, and <a href=\"https://www.ikea.com/us/en/customer-service/cookie-policy/\">Cookie Policy</a> for more information.</div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\"><button id=\"onetrust-pc-btn-handler\">Your privacy choices</button>  <button id=\"onetrust-accept-btn-handler\">Ok</button></div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"></div><!-- Close Button END--></div></div>",
+    "text": "IKEA US and our digital partners use cookies on this site. Some are strictly necessary to run the site and others are used for measuring site usage, enabling personalization and for advertising, marketing, and social media. View our Privacy Policy , California Notice at Collection, and Cookie Policy for more information.\nYour privacy choices Ok"
+}

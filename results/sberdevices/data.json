@@ -1,0 +1,40 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1080
+    },
+    "size": {
+        "height": 0,
+        "width": 1920
+    },
+    "z_index": "90",
+    "class": "snackbar__SnackBarStyled-sc-ai3pah-0 HCWmq",
+    "id": "",
+    "background_color": "rgba(0, 0, 0, 0)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px solid rgb(0, 0, 0)",
+    "screen_shot_path": "./results/sberdevices/main_banner.png",
+    "links": [
+        {
+            "text": "\u043a\u0443\u043a\u0438",
+            "url": "https://sberdevices.ru/legal/privacy_policy/",
+            "font_size": "12px",
+            "font_weight": "500",
+            "color": "rgba(29, 30, 31, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "\u041e\u041a",
+            "font_size": "20px",
+            "font_weight": "600",
+            "color": "rgba(0, 110, 255, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "number_of_buttons": 1,
+    "html_code": "<div data-testid=\"snackbar\" class=\"snackbar__SnackBarStyled-sc-ai3pah-0 HCWmq\"><div class=\"cookie__CookieAlertWrapper-sc-mj4urx-0 gOFkwv\"><div class=\"cookie__CookieAlertPopup-sc-mj4urx-1 dPSfUV\"><div class=\"cookie__CookieAlertText-sc-mj4urx-2 hCwwmv\">\u041e\u0441\u0442\u0430\u0432\u0430\u044f\u0441\u044c \u043d\u0430 \u0441\u0430\u0439\u0442\u0435,<br>\u0432\u044b \u0441\u043e\u0433\u043b\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044c c \u0438\u0441\u043f\u043e\u043b\u044c-<br>\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0444\u0430\u0439\u043b\u043e\u0432 <a href=\"https://sberdevices.ru/legal/privacy_policy/\">\u043a\u0443\u043a\u0438</a></div><button class=\"cookie__CookieAlertButton-sc-mj4urx-3 hQbXmO\">\u041e\u041a</button></div></div></div>",
+    "text": "\u041e\u0441\u0442\u0430\u0432\u0430\u044f\u0441\u044c \u043d\u0430 \u0441\u0430\u0439\u0442\u0435,\n\u0432\u044b \u0441\u043e\u0433\u043b\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044c c \u0438\u0441\u043f\u043e\u043b\u044c-\n\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0444\u0430\u0439\u043b\u043e\u0432 \u043a\u0443\u043a\u0438\n\u041e\u041a"
+}

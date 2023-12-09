@@ -1,0 +1,54 @@
+{
+    "position": {
+        "x": 32,
+        "y": 879
+    },
+    "size": {
+        "height": 169,
+        "width": 945
+    },
+    "z_index": "2147483645",
+    "class": "otFloatingFlat otRelFont ot-bottom-left",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(0, 0, 0, 0)",
+    "color": "rgba(0, 0, 0, 1)",
+    "border": "0px none rgb(0, 0, 0)",
+    "screen_shot_path": "./results/fastly/main_banner.png",
+    "links": [
+        {
+            "text": "Cookie Policy",
+            "url": "https://www.fastly.com/cookies/",
+            "font_size": "13.008px",
+            "font_weight": "700",
+            "color": "rgba(153, 221, 255, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "",
+            "font_size": "14.4px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "text": "Accept default settings",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(37, 32, 30, 1)",
+            "background_color": "rgba(231, 255, 122, 1)"
+        },
+        {
+            "text": "Manage choices",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(231, 255, 122, 1)",
+            "background_color": "rgba(0, 0, 0, 1)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFloatingFlat otRelFont ot-bottom-left\" tabindex=\"0\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-labelledby=\"onetrust-policy-title\"><div class=\"ot-sdk-container\"><!-- Banner close icon starts --><div class=\"banner-close-btn-container\"><button class=\"onetrust-close-btn-handler ot-close-icon banner-close-button\" aria-label=\"Close\"></button></div><!-- Banner close icon ends --><div class=\"ot-sdk-row\"><div class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\" class=\"policy\"><h3 id=\"onetrust-policy-title\">Cookie Policy</h3><p id=\"onetrust-policy-text\">Will you accept our Cookie Policy? We use cookies to give you a better, more personalized experience, and to give us important performance and analytics data to keep things running smoothly.\n\n<a href=\"https://www.fastly.com/cookies/\">Cookie Policy</a></p></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-four ot-sdk-columns\"><div id=\"onetrust-button-group\" class=\"ot-sdk-row\"><div class=\"accept-btn-container\"><button id=\"onetrust-accept-btn-handler\">Accept default settings</button></div><div class=\"reject-btn-container\"></div><div class=\"pc-btn-container\"><button id=\"onetrust-pc-btn-handler\">Manage choices</button></div></div></div></div></div></div></div>",
+    "text": "Cookie Policy\nWill you accept our Cookie Policy? We use cookies to give you a better, more personalized experience, and to give us important performance and analytics data to keep things running smoothly. Cookie Policy\nAccept default settings\nManage choices"
+}

@@ -1,0 +1,54 @@
+{
+    "position": {
+        "x": 0,
+        "y": 1009
+    },
+    "size": {
+        "height": 71,
+        "width": 1920
+    },
+    "z_index": "2147483645",
+    "class": "otFlat bottom ot-wo-title",
+    "id": "onetrust-banner-sdk",
+    "background_color": "rgba(255, 255, 255, 1)",
+    "color": "rgba(39, 39, 39, 1)",
+    "border": "0px none rgb(39, 39, 39)",
+    "screen_shot_path": "./results/flightaware/main_banner.png",
+    "links": [
+        {
+            "text": "Privacy Statement",
+            "url": "https://www.flightaware.com/about/privacy/",
+            "font_size": "13.008px",
+            "font_weight": "700",
+            "color": "rgba(66, 82, 111, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_links": 1,
+    "buttons": [
+        {
+            "text": "Cookie Settings",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(66, 82, 111, 1)",
+            "background_color": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "text": "Allow All",
+            "font_size": "13.008px",
+            "font_weight": "600",
+            "color": "rgba(255, 255, 255, 1)",
+            "background_color": "rgba(0, 112, 224, 1)"
+        },
+        {
+            "text": "",
+            "font_size": "14.4px",
+            "font_weight": "400",
+            "color": "rgba(85, 85, 85, 1)",
+            "background_color": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "number_of_buttons": 3,
+    "html_code": "<div id=\"onetrust-banner-sdk\" class=\"otFlat bottom ot-wo-title\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\"><div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Privacy\"><div class=\"ot-sdk-container\"><div class=\"ot-sdk-row\"><div id=\"onetrust-group-container\" class=\"ot-sdk-eight ot-sdk-columns\"><div class=\"banner_logo\"></div><div id=\"onetrust-policy\"><div id=\"onetrust-policy-text\">FlightAware uses cookies to keep our site free, enhance your experience, and to analyze performance and traffic. By clicking \u201cAllow All\u201d, you agree to storing cookies on your device.<a href=\"https://www.flightaware.com/about/privacy/\" aria-label=\"Legal Information\">Privacy Statement</a></div></div></div><div id=\"onetrust-button-group-parent\" class=\"ot-sdk-three ot-sdk-columns\"><div id=\"onetrust-button-group\"><button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\">Cookie Settings</button>  <button id=\"onetrust-accept-btn-handler\">Allow All</button></div></div></div></div><!-- Close Button --><div id=\"onetrust-close-btn-container\"><button class=\"onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon\" style=\"background-image: url(&quot;https://cdn.cookielaw.org/logos/static/ot_close.svg&quot;);\" aria-label=\"Close\"></button></div><!-- Close Button END--></div></div>",
+    "text": "FlightAware uses cookies to keep our site free, enhance your experience, and to analyze performance and traffic. By clicking \u201cAllow All\u201d, you agree to storing cookies on your device.Privacy Statement\nCookie Settings Allow All"
+}
